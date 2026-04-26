@@ -1,0 +1,55 @@
+{
+  "id": "obj_20_shelf_decor_house_pyramid",
+  "number": 20,
+  "displayNameRu": "Декоративный домик/пирамидка на полке",
+  "displayNameEn": "Shelf Decorative House or Pyramid",
+  "category": "decor",
+  "family": "smallAccent",
+  "template": "templateSmallDecor",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.16,
+    "height": 0.18,
+    "depth": 0.14
+  },
+  "detailLevel": "low",
+  "polyBudget": {
+    "targetTris": 100,
+    "maxTris": 180
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": true
+  },
+  "allowedPrimitives": [
+    "roundedBox",
+    "cone",
+    "panelRect"
+  ],
+  "requiredParts": [
+    "base",
+    "topAccent"
+  ],
+  "requiredHooks": [
+    "shelf_attach_center"
+  ],
+  "requiredMaterialSlots": [
+    "plasticMain",
+    "woodAccent"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [],
+  "blueprintSources": {
+    "front": "room_objects_51_images/20_shelf_decor_house_pyramid_front_view.svg",
+    "top": "room_objects_51_images/20_shelf_decor_house_pyramid_top_view.svg",
+    "side": "room_objects_51_images/20_shelf_decor_house_pyramid_side_view.svg"
+  },
+  "projectionRules": {
+    "front": "Controls house-like base, triangular roof, door and window.",
+    "top": "Controls compact rounded base and roof overhang.",
+    "side": "Controls prism depth and roof slope."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: маленький декоративный домик с округлым основанием, треугольной крышей, дверью и окном. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

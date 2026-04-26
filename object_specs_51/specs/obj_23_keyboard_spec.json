@@ -1,0 +1,53 @@
+{
+  "id": "obj_23_keyboard",
+  "number": 23,
+  "displayNameRu": "Клавиатура",
+  "displayNameEn": "Keyboard",
+  "category": "electronics",
+  "family": "desktopAccessory",
+  "template": "templateKeyboard",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.44,
+    "height": 0.035,
+    "depth": 0.16
+  },
+  "detailLevel": "low",
+  "polyBudget": {
+    "targetTris": 120,
+    "maxTris": 220
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": false
+  },
+  "allowedPrimitives": [
+    "roundedBox",
+    "panelRect"
+  ],
+  "requiredParts": [
+    "base",
+    "keySurfaceZone"
+  ],
+  "requiredHooks": [
+    "desktop_attach_center"
+  ],
+  "requiredMaterialSlots": [
+    "plasticMain"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [],
+  "blueprintSources": {
+    "front": "room_objects_51_images/23_keyboard_front_view.svg",
+    "top": "room_objects_51_images/23_keyboard_top_view.svg",
+    "side": "room_objects_51_images/23_keyboard_side_view.svg"
+  },
+  "projectionRules": {
+    "top": "Controls 0.44m x 0.16m footprint and key layout.",
+    "front": "Controls shallow 0.03m height.",
+    "side": "Controls thin wedge-like presence."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: тонкая белая клавиатура с поднятыми светло-серыми клавишами. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "obj_07_bedside_lamp",
+  "template": "templateLamp",
+  "dimensions": { "width": 0.22, "height": 0.42, "depth": 0.22 },
+  "parts": [
+    { "id": "base", "primitive": "cylinder", "materialSlot": "woodAccent" },
+    { "id": "stem", "primitive": "cylinder", "materialSlot": "woodAccent" },
+    { "id": "shade", "primitive": "lathe", "materialSlot": "plasticMain" },
+    { "id": "bulb", "primitive": "sphere", "materialSlot": "glass" }
+  ],
+  "materialSlots": {
+    "plasticMain": "shade shell",
+    "woodAccent": "base and stem",
+    "glass": "bulb"
+  },
+  "sockets": {
+    "light_emitter": { "position": [0, 0.2, 0] },
+    "table_attach_center": { "position": [0, 0, 0] }
+  },
+  "exportMeta": {
+    "units": "meters",
+    "projectionDriven": true,
+    "primaryProjection": "front",
+    "sources": {
+      "frontSvg": "room_objects_51_images/07_bedside_lamp_front_view.svg",
+      "topSvg": "room_objects_51_images/07_bedside_lamp_top_view.svg",
+      "sideSvg": "room_objects_51_images/07_bedside_lamp_side_view.svg"
+    }
+  }
+}

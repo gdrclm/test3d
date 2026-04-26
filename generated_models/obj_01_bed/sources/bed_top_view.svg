@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+
+<defs>
+  <linearGradient id="blanketGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ff8fbf"/>
+    <stop offset="100%" stop-color="#e56fa0"/>
+  </linearGradient>
+  <linearGradient id="woodGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f5d4bd"/>
+    <stop offset="100%" stop-color="#d6a47a"/>
+  </linearGradient>
+</defs>
+
+
+<rect x="0" y="0" width="900" height="520" fill="#fff8fb"/>
+<g><line x1="40" y1="40" x2="40" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="80" y1="40" x2="80" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="120" y1="40" x2="120" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="160" y1="40" x2="160" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="200" y1="40" x2="200" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="240" y1="40" x2="240" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="280" y1="40" x2="280" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="320" y1="40" x2="320" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="360" y1="40" x2="360" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="400" y1="40" x2="400" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="440" y1="40" x2="440" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="480" y1="40" x2="480" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="520" y1="40" x2="520" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="560" y1="40" x2="560" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="600" y1="40" x2="600" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="640" y1="40" x2="640" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="680" y1="40" x2="680" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="720" y1="40" x2="720" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="760" y1="40" x2="760" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="800" y1="40" x2="800" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="840" y1="40" x2="840" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="880" y1="40" x2="880" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="40" y1="40" x2="860" y2="40" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="40" y1="80" x2="860" y2="80" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="40" y1="120" x2="860" y2="120" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="40" y1="160" x2="860" y2="160" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="40" y1="200" x2="860" y2="200" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="40" y1="240" x2="860" y2="240" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="40" y1="280" x2="860" y2="280" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="40" y1="320" x2="860" y2="320" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="40" y1="360" x2="860" y2="360" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="40" y1="400" x2="860" y2="400" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="40" y1="440" x2="860" y2="440" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/><line x1="40" y1="480" x2="860" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.5"/></g>
+<text x="450.0" y="34" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#5c4352" text-anchor="middle">Кровать — вид сверху / TOP</text>
+
+
+<g id="bed_top_view">
+  <rect x="130" y="115" width="640" height="304" rx="26" fill="url(#woodGrad)" stroke="#2f2530" stroke-width="4"/>
+  <rect x="152" y="137" width="596" height="260" rx="22" fill="#fff7fb" stroke="#b98aa0" stroke-width="3"/>
+  <rect x="144" y="129" width="80" height="276" rx="18" fill="#d6a47a" opacity="0.75" stroke="#2f2530" stroke-width="2"/>
+  <rect x="716" y="131" width="32" height="272" rx="13" fill="#d6a47a" opacity="0.55" stroke="#2f2530" stroke-width="2"/>
+  <rect x="168" y="151" width="64" height="110.0" rx="16" fill="#ffffff" stroke="#2f2530" stroke-width="2"/>
+  <rect x="168" y="279.0" width="64" height="110.0" rx="16" fill="#fff4c7" stroke="#2f2530" stroke-width="2"/>
+  <rect x="252" y="151" width="450" height="232" rx="24" fill="url(#blanketGrad)" stroke="#2f2530" stroke-width="3"/>
+  <line x1="286" y1="169" x2="286" y2="365" stroke="#e56fa0" stroke-width="3" opacity="0.65"/>
+  <line x1="600" y1="171" x2="600" y2="363" stroke="#ffffff" stroke-width="4" opacity="0.45"/>
+  <path d="M 258 267.0 C 370 239.0, 480 295.0, 660 267.0" fill="none" stroke="#ffffff" stroke-width="5" opacity="0.35"/>
+  <circle cx="160" cy="145" r="6" fill="#fff1c7" stroke="#2f2530" stroke-width="1.5"/>
+  <circle cx="740" cy="145" r="6" fill="#fff1c7" stroke="#2f2530" stroke-width="1.5"/>
+  <circle cx="160" cy="389" r="6" fill="#fff1c7" stroke="#2f2530" stroke-width="1.5"/>
+  <circle cx="740" cy="389" r="6" fill="#fff1c7" stroke="#2f2530" stroke-width="1.5"/>
+</g>
+
+
+<line x1="130" y1="471" x2="770" y2="471" stroke="#b98aa0" stroke-width="2"/>
+<line x1="130" y1="463" x2="130" y2="479" stroke="#b98aa0" stroke-width="2"/>
+<line x1="770" y1="463" x2="770" y2="479" stroke="#b98aa0" stroke-width="2"/>
+<text x="450.0" y="459" font-family="Arial, sans-serif" font-size="18" fill="#5c4352" text-anchor="middle">длина 2.00 м</text>
+
+
+<line x1="86" y1="115" x2="86" y2="419" stroke="#b98aa0" stroke-width="2"/>
+<line x1="78" y1="115" x2="94" y2="115" stroke="#b98aa0" stroke-width="2"/>
+<line x1="78" y1="419" x2="94" y2="419" stroke="#b98aa0" stroke-width="2"/>
+<text x="58" y="267.0" transform="rotate(-90 58 267.0)" font-family="Arial, sans-serif" font-size="18" fill="#5c4352" text-anchor="middle">глубина 0.95 м</text>
+
+<text x="450.0" y="482" font-family="Arial, sans-serif" font-size="16" fill="#5c4352" text-anchor="middle">Ортографический чертёж: footprint сверху, без перспективы.</text>
+</svg>

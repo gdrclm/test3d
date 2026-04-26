@@ -1,0 +1,9 @@
+{
+  "id": "obj_34_left_pouf",
+  "sourceSpec": "object_specs_51/specs/obj_34_left_pouf_spec.json",
+  "projectionPriority": ["top", "front", "side"],
+  "modelingNotes": "Left pouf rebuilt as a smooth flatter dense SVG-profiled mound. Raised seam and rim details are intentionally omitted so the front/side reads as one continuous squashed silhouette.",
+  "parts": [
+    "svg_profiled_left_pouf_body"
+  ]
+}

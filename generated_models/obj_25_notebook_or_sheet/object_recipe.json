@@ -1,0 +1,7 @@
+{
+  "id": "obj_25_notebook_or_sheet",
+  "sourceSpec": "object_specs_51/specs/obj_25_notebook_or_sheet_spec.json",
+  "projectionPriority": ["top", "front", "side"],
+  "modelingNotes": "Notebook rebuilt with white paper stack, pale cover, pink binder strip, holes and notebook rule lines.",
+  "parts": ["notebook_outer_stack", "white_top_sheet", "pink_binder_strip", "binder_hole_dot", "pale_notebook_rule"]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "obj_33_small_table_toy",
+  "number": 33,
+  "displayNameRu": "Маленькая игрушка на столике",
+  "displayNameEn": "Small Toy on Table",
+  "category": "toy",
+  "family": "smallTableProp",
+  "template": "templateSmallProp",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.09,
+    "height": 0.09,
+    "depth": 0.09
+  },
+  "detailLevel": "low",
+  "polyBudget": {
+    "targetTris": 60,
+    "maxTris": 140
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": true
+  },
+  "allowedPrimitives": [
+    "roundedBox",
+    "sphere",
+    "cone"
+  ],
+  "requiredParts": [
+    "mainMass",
+    "accentZone"
+  ],
+  "requiredHooks": [
+    "table_attach_center"
+  ],
+  "requiredMaterialSlots": [
+    "plasticMain",
+    "fabricAccent"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [],
+  "blueprintSources": {
+    "front": "room_objects_51_images/33_small_table_toy_front_view.svg",
+    "top": "room_objects_51_images/33_small_table_toy_top_view.svg",
+    "side": "room_objects_51_images/33_small_table_toy_side_view.svg"
+  },
+  "projectionRules": {
+    "top": "Controls 0.08m circular footprint and star badge.",
+    "front": "Controls spherical body and pink star placement.",
+    "side": "Controls round toy volume."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: мятный шарик/игрушка с розовой звездой. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

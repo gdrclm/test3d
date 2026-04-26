@@ -1,0 +1,7 @@
+{
+  "id": "obj_24_tablet_or_book",
+  "sourceSpec": "object_specs_51/specs/obj_24_tablet_or_book_spec.json",
+  "projectionPriority": ["top", "side"],
+  "modelingNotes": "Tablet/book rebuilt from the top and side SVGs; no separate front view exists in the current source set.",
+  "parts": ["lavender_flat_cover", "pale_inner_page", "center_spine_line"]
+}

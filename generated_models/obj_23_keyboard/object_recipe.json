@@ -1,0 +1,7 @@
+{
+  "id": "obj_23_keyboard",
+  "sourceSpec": "object_specs_51/specs/obj_23_keyboard_spec.json",
+  "projectionPriority": ["top", "front", "side"],
+  "modelingNotes": "Keyboard rebuilt as a thin white rounded slab with raised pale key caps matching the corrected top view.",
+  "parts": ["white_keyboard_body", "small_keyboard_key", "long_spacebar_key"]
+}

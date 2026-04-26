@@ -1,0 +1,7 @@
+{
+  "id": "obj_19_shelf_box",
+  "sourceSpec": "object_specs_51/specs/obj_19_shelf_box_spec.json",
+  "projectionPriority": ["top", "front", "side"],
+  "modelingNotes": "Shelf box rebuilt with rounded body, overhanging lid and top handle following the corrected top and side drawings.",
+  "parts": ["rounded_storage_box_body", "overhanging_rounded_lid", "top_lid_handle"]
+}

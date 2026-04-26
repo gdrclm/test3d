@@ -1,0 +1,7 @@
+{
+  "id": "obj_27_office_chair",
+  "sourceSpec": "object_specs_51/specs/obj_27_office_chair_spec.json",
+  "projectionPriority": ["front", "top", "side"],
+  "modelingNotes": "Rolling chair rebuilt with pink rounded back/seat, grey five-star base and pale caster wheels.",
+  "parts": ["rounded_pink_backrest", "rounded_pink_seat", "central_grey_support", "five_star_base_arm", "small_caster_wheel"]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "obj_24_tablet_or_book",
+  "number": 24,
+  "displayNameRu": "Планшет/книга на столе",
+  "displayNameEn": "Tablet or Book on Desk",
+  "category": "prop",
+  "family": "flatProp",
+  "template": "templateFlatPortable",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.28,
+    "height": 0.025,
+    "depth": 0.22
+  },
+  "detailLevel": "low",
+  "polyBudget": {
+    "targetTris": 80,
+    "maxTris": 180
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": false
+  },
+  "allowedPrimitives": [
+    "panelRect",
+    "roundedBox"
+  ],
+  "requiredParts": [
+    "mainBody",
+    "coverOrScreenZone"
+  ],
+  "requiredHooks": [
+    "desktop_attach_center"
+  ],
+  "requiredMaterialSlots": [
+    "paper",
+    "plasticMain",
+    "glass"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [
+    "cover_open_optional"
+  ],
+  "blueprintSources": {
+    "front": "room_objects_51_images/24_tablet_or_book_top_view.svg",
+    "top": "room_objects_51_images/24_tablet_or_book_top_view.svg",
+    "side": "room_objects_51_images/24_tablet_or_book_side_view.svg"
+  },
+  "projectionRules": {
+    "top": "Primary source for 0.28m x 0.22m lavender footprint, inset page and center line.",
+    "side": "Controls 0.02m thickness.",
+    "front": "No separate front SVG exists; top view is reused only for preview consistency."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: плоский лавандовый планшет/книга со светлой внутренней плоскостью. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

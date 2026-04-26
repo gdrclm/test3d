@@ -1,0 +1,7 @@
+{
+  "id": "obj_11_door",
+  "sourceSpec": "object_specs_51/specs/obj_11_door_spec.json",
+  "projectionPriority": ["top", "front", "side"],
+  "modelingNotes": "Door rebuilt from the corrected three-view SVGs: top controls the thin footprint, front controls the rounded leaf and panel layout, side controls hinge thickness.",
+  "parts": ["door_leaf_rounded", "front_inner_frame", "upper_inset_panel", "lower_inset_panel", "round_knob", "left_side_hinge_plate"]
+}

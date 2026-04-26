@@ -1,0 +1,7 @@
+{
+  "id": "obj_43_blue_rug_toy",
+  "sourceSpec": "object_specs_51/specs/obj_43_blue_rug_toy_spec.json",
+  "projectionPriority": ["top", "front", "side"],
+  "modelingNotes": "Small round rug toy rebuilt from SVG diameter and palette with a blue body and cream accent.",
+  "parts": ["round_blue_rug_toy_body", "cream_front_dot"]
+}

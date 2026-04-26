@@ -1,0 +1,7 @@
+{
+  "id": "obj_18_shelf_vase_bottle",
+  "sourceSpec": "object_specs_51/specs/obj_18_shelf_vase_bottle_spec.json",
+  "projectionPriority": ["front", "side", "top"],
+  "modelingNotes": "Vase/bottle rebuilt with a lathe profile: broad base, rounded belly, narrowing neck and open rim.",
+  "parts": ["lathed_bottle_body", "thin_open_rim", "small_weighted_base"]
+}

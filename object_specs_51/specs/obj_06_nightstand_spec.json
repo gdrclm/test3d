@@ -1,0 +1,53 @@
+{
+  "id": "obj_06_nightstand",
+  "number": 6,
+  "displayNameRu": "Прикроватная тумбочка",
+  "displayNameEn": "Nightstand",
+  "category": "furniture",
+  "family": "cabinetFurniture",
+  "template": "templateCabinetSmall",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.45,
+    "height": 0.5,
+    "depth": 0.38
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 850,
+    "maxTris": 1400
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": false
+  },
+  "allowedPrimitives": [
+    "roundedBox",
+    "panelRect",
+    "softCylinder"
+  ],
+  "requiredParts": [
+    "carcass",
+    "topCap",
+    "upperDrawerFront",
+    "lowerDoorFront",
+    "handleSet",
+    "footSet"
+  ],
+  "requiredHooks": [
+    "top_surface_center",
+    "front_face_center"
+  ],
+  "requiredMaterialSlots": [
+    "woodMain",
+    "woodAccent",
+    "metalAccent"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [
+    "drawer_pull_axis"
+  ],
+  "notes": "Чертежи 06_nightstand подтверждают размеры 0.48 x 0.52 x 0.40 м и двухуровневый фронт: верхний ящик, нижний фасад, ручка-щель и нижняя круглая ручка. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

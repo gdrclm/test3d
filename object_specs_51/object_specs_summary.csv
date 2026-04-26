@@ -1,0 +1,52 @@
+number,id,name_ru,name_en,category,template,file
+1,obj_01_bed,Кровать,Bed,furniture,templateBed,specs/obj_01_bed_spec.json
+2,obj_02_pink_blanket,Розовое одеяло,Pink Blanket,textile,templateSoftSurface,specs/obj_02_pink_blanket_spec.json
+3,obj_03_white_pillow,Белая подушка,White Pillow,textile,templatePillow,specs/obj_03_white_pillow_spec.json
+4,obj_04_yellow_pillow,Жёлтая подушка,Yellow Pillow,textile,templatePillow,specs/obj_04_yellow_pillow_spec.json
+5,obj_05_bed_toy,Игрушка на кровати,Toy on Bed,toy,templateSmallPlush,specs/obj_05_bed_toy_spec.json
+6,obj_06_nightstand,Прикроватная тумбочка,Nightstand,furniture,templateCabinetSmall,specs/obj_06_nightstand_spec.json
+7,obj_07_bedside_lamp,Прикроватная лампа,Bedside Lamp,lighting,templateLamp,specs/obj_07_bedside_lamp_spec.json
+8,obj_08_window,Окно,Window,wallObject,templateWindowFlat,specs/obj_08_window_spec.json
+9,obj_09_left_curtain,Левая штора,Left Curtain,textile,templateCurtain,specs/obj_09_left_curtain_spec.json
+10,obj_10_right_curtain,Правая штора,Right Curtain,textile,templateCurtain,specs/obj_10_right_curtain_spec.json
+11,obj_11_door,Дверь,Door,architectural,templateDoorFlat,specs/obj_11_door_spec.json
+12,obj_12_ceiling_lamp,Потолочная лампа,Ceiling Lamp,lighting,templateCeilingLamp,specs/obj_12_ceiling_lamp_spec.json
+13,obj_13_rug,Ковёр,Rug,textile,templateRugOval,specs/obj_13_rug_spec.json
+14,obj_14_wardrobe,Шкаф,Wardrobe,furniture,templateWardrobe,specs/obj_14_wardrobe_spec.json
+15,obj_15_bookshelf,Книжный шкаф,Bookshelf,furniture,templateBookshelf,specs/obj_15_bookshelf_spec.json
+16,obj_16_books_set,Книги на полках,Books Set,decor,templateBookCluster,specs/obj_16_books_set_spec.json
+17,obj_17_shelf_plush,Плюшевая игрушка на полке,Shelf Plush Toy,toy,templateSmallPlush,specs/obj_17_shelf_plush_spec.json
+18,obj_18_shelf_vase_bottle,Ваза/бутылка на полке,Shelf Vase or Bottle,decor,templateLatheProp,specs/obj_18_shelf_vase_bottle_spec.json
+19,obj_19_shelf_box,Коробка на полке,Shelf Box,decor,templateBoxProp,specs/obj_19_shelf_box_spec.json
+20,obj_20_shelf_decor_house_pyramid,Декоративный домик/пирамидка на полке,Shelf Decorative House or Pyramid,decor,templateSmallDecor,specs/obj_20_shelf_decor_house_pyramid_spec.json
+21,obj_21_desk,Письменный стол,Desk,furniture,templateDesk,specs/obj_21_desk_spec.json
+22,obj_22_monitor,Монитор/экран на столе,Monitor or Screen,electronics,templateMonitor,specs/obj_22_monitor_spec.json
+23,obj_23_keyboard,Клавиатура,Keyboard,electronics,templateKeyboard,specs/obj_23_keyboard_spec.json
+24,obj_24_tablet_or_book,Планшет/книга на столе,Tablet or Book on Desk,prop,templateFlatPortable,specs/obj_24_tablet_or_book_spec.json
+25,obj_25_notebook_or_sheet,Блокнот/листок на столе,Notebook or Sheet on Desk,paperProp,templatePaperProp,specs/obj_25_notebook_or_sheet_spec.json
+26,obj_26_desk_lamp,Настольный светильник,Desk Lamp,lighting,templateLamp,specs/obj_26_desk_lamp_spec.json
+27,obj_27_office_chair,Стул на колёсиках,Chair on Wheels,furniture,templateOfficeChair,specs/obj_27_office_chair_spec.json
+28,obj_28_toy_box,Ящик для игрушек,Toy Box,furniture,templateToyBox,specs/obj_28_toy_box_spec.json
+29,obj_29_doll_house,Кукольный домик,Doll House,toy,templateToyHouse,specs/obj_29_doll_house_spec.json
+30,obj_30_round_play_table,Круглый игровой столик,Round Play Table,furniture,templateRoundTable,specs/obj_30_round_play_table_spec.json
+31,obj_31_toy_teapot_or_cup,Игрушечный чайник/чашка,Toy Teapot or Cup,toy,templateTeaProp,specs/obj_31_toy_teapot_or_cup_spec.json
+32,obj_32_table_toy_cube_or_item,Игрушечный кубик/предмет на столике,Toy Cube or Item on Table,toy,templateSmallProp,specs/obj_32_table_toy_cube_or_item_spec.json
+33,obj_33_small_table_toy,Маленькая игрушка на столике,Small Toy on Table,toy,templateSmallProp,specs/obj_33_small_table_toy_spec.json
+34,obj_34_left_pouf,Левый пуфик,Left Pouf,furniture,templatePouf,specs/obj_34_left_pouf_spec.json
+35,obj_35_right_pouf,Правый пуфик,Right Pouf,furniture,templatePouf,specs/obj_35_right_pouf_spec.json
+36,obj_36_bean_bag,Кресло-мешок,Bean Bag,furniture,templateBeanBag,specs/obj_36_bean_bag_spec.json
+37,obj_37_easel,Мольберт,Easel,artFurniture,templateEasel,specs/obj_37_easel_spec.json
+38,obj_38_canvas,Холст на мольберте,Canvas on Easel,artObject,templateCanvas,specs/obj_38_canvas_spec.json
+39,obj_39_star_mobile,Мобиль со звёздами,Star Mobile,decor,templateMobile,specs/obj_39_star_mobile_spec.json
+40,obj_40_wall_clock,Настенные часы,Wall Clock,wallObject,templateWallClock,specs/obj_40_wall_clock_spec.json
+41,obj_41_poster_01,Первый постер,Poster 01,wallObject,templatePoster,specs/obj_41_poster_01_spec.json
+42,obj_42_poster_02,Второй постер,Poster 02,wallObject,templatePoster,specs/obj_42_poster_02_spec.json
+43,obj_43_blue_rug_toy,Синяя игрушка на ковре,Blue Toy on Rug,toy,templateSmallProp,specs/obj_43_blue_rug_toy_spec.json
+44,obj_44_pink_rug_toy,Розовая игрушка на ковре,Pink Toy on Rug,toy,templateSmallProp,specs/obj_44_pink_rug_toy_spec.json
+45,obj_45_yellow_rug_toy,Жёлтая игрушка на ковре,Yellow Toy on Rug,toy,templateSmallProp,specs/obj_45_yellow_rug_toy_spec.json
+46,obj_46_green_rug_cube,Зелёный кубик на ковре,Green Cube on Rug,toy,templateBlock,specs/obj_46_green_rug_cube_spec.json
+47,obj_47_purple_rug_cube,Фиолетовый кубик на ковре,Purple Cube on Rug,toy,templateBlock,specs/obj_47_purple_rug_cube_spec.json
+48,obj_48_small_pyramid,Маленькая пирамидка на ковре,Small Pyramid on Rug,toy,templatePyramidToy,specs/obj_48_small_pyramid_spec.json
+49,obj_49_slippers,Домашние тапочки,Slippers,wearableProp,templateSlippersPair,specs/obj_49_slippers_spec.json
+50,obj_50_plant_in_pot,Растение в горшке,Plant in Pot,decor,templatePottedPlant,specs/obj_50_plant_in_pot_spec.json
+51,obj_51_laundry_basket,Корзина для белья,Laundry Basket,containerProp,templateLaundryBasket,specs/obj_51_laundry_basket_spec.json

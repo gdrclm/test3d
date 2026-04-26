@@ -1,0 +1,7 @@
+{
+  "id": "obj_13_rug",
+  "sourceSpec": "object_specs_51/specs/obj_13_rug_spec.json",
+  "projectionPriority": ["top", "side", "front"],
+  "modelingNotes": "Rug rebuilt with an oval top footprint, shallow side thickness and raised border matching the corrected drawing language.",
+  "parts": ["large_oval_rug_body", "raised_oval_border", "inner_field_over_border", "subtle_woven_stripe"]
+}

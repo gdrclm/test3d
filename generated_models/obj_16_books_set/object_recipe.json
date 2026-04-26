@@ -1,0 +1,7 @@
+{
+  "id": "obj_16_books_set",
+  "sourceSpec": "object_specs_51/specs/obj_16_books_set_spec.json",
+  "projectionPriority": ["front", "top", "side"],
+  "modelingNotes": "Book cluster rebuilt as separate rounded spines with uneven heights and a small slanted book, constrained to the shelf footprint.",
+  "parts": ["individual_book_spine", "visible_page_band", "thin_book_cluster_base"]
+}

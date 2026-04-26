@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980">
+
+<defs>
+  <linearGradient id="gPink" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ffd4e4"/><stop offset="100%" stop-color="#e56fa0"/>
+  </linearGradient>
+  <linearGradient id="gWood" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f5d4bd"/><stop offset="100%" stop-color="#d6a47a"/>
+  </linearGradient>
+  <linearGradient id="gBlue" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#aee3ff"/><stop offset="100%" stop-color="#78c6ea"/>
+  </linearGradient>
+  <linearGradient id="gMint" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#86d7c0"/><stop offset="100%" stop-color="#63b79e"/>
+  </linearGradient>
+  <linearGradient id="gLav" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#c9b5ff"/><stop offset="100%" stop-color="#aa92ef"/>
+  </linearGradient>
+</defs>
+
+<rect x="0" y="0" width="1400" height="980" fill="#fff8fb"/>
+<text x="700" y="42" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#5c4352" text-anchor="middle">Розовое одеяло — 3 ортографических SVG-вида</text>
+<text x="700" y="72" font-family="Arial, sans-serif" font-size="17" fill="#5c4352" text-anchor="middle">Усилена детализация и характер форм по комнате-референсу. Чистый orthographic.</text>
+<g transform="translate(160,120)"><text x="320" y="-18" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#5c4352" text-anchor="middle">TOP</text>
+<g>
+  <rect x="146" y="126" width="608" height="268" rx="34" fill="url(#gPink)" stroke="#2f2530" stroke-width="4"/>
+  <path d="M 160 150 Q 192 176 224 150 T 288 150 T 352 150 T 416 150 T 480 150 T 544 150 T 608 150 T 672 150 T 736 150" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.22"/>
+  <path d="M 178 176 C 230 162, 290 166, 346 184 C 408 204, 470 162, 536 178 C 610 196, 664 188, 722 174" fill="none" stroke="#ffffff" stroke-width="5" opacity="0.36"/>
+  <path d="M 182 228 C 248 212, 328 238, 410 226 C 514 210, 612 232, 716 220" fill="none" stroke="#e56fa0" stroke-width="3" opacity="0.35"/>
+  <path d="M 178 286 C 236 270, 324 298, 418 284 C 510 270, 616 298, 720 280" fill="none" stroke="#e56fa0" stroke-width="3" opacity="0.34"/>
+  <path d="M 174 338 C 232 320, 304 332, 366 350 C 434 370, 500 326, 572 340 C 634 352, 682 350, 728 334" fill="none" stroke="#ffffff" stroke-width="5" opacity="0.28"/>
+  <path d="M 154 144 Q 190 122 228 136 Q 194 170 154 144" fill="#ffffff" opacity="0.15"/>
+  <path d="M 752 372 Q 720 394 682 384 Q 720 350 752 372" fill="#ffffff" opacity="0.15"/>
+  <rect x="160" y="140" width="580" height="240" rx="26" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.30"/>
+</g>
+</g>
+<g transform="translate(160,550)"><text x="320" y="-18" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#5c4352" text-anchor="middle">SIDE</text>
+<g>
+  <line x1="96" y1="292" x2="804" y2="292" stroke="#b98aa0" stroke-width="3" stroke-dasharray="10 8"/>
+  <path d="M 148 276 C 196 232, 248 250, 300 270 C 336 284, 380 284, 420 258 C 462 232, 512 240, 564 266 C 618 292, 676 278, 754 258 L 754 286 L 148 286 Z" fill="url(#gPink)" stroke="#2f2530" stroke-width="4"/>
+  <path d="M 170 260 C 240 246, 304 276, 372 260 C 444 244, 528 246, 610 268 C 654 280, 690 270, 728 252" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.34"/>
+  <path d="M 176 272 C 250 256, 336 270, 426 264 C 510 258, 610 274, 718 260" fill="none" stroke="#e56fa0" stroke-width="3" opacity="0.34"/>
+  <path d="M 148 286 Q 164 276 180 286 M 196 286 Q 210 278 224 286 M 734 286 Q 744 278 754 286" fill="none" stroke="#e56fa0" stroke-width="3" opacity="0.45"/>
+</g>
+</g>
+<g transform="translate(880,550)"><text x="152" y="-18" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#5c4352" text-anchor="middle">FRONT</text>
+<g>
+  <line x1="64" y1="292" x2="496" y2="292" stroke="#b98aa0" stroke-width="3" stroke-dasharray="10 8"/>
+  <path d="M 126 276 C 166 238, 214 252, 256 272 C 288 286, 326 284, 360 260 C 388 242, 410 244, 432 256 L 432 286 L 126 286 Z" fill="url(#gPink)" stroke="#2f2530" stroke-width="4"/>
+  <path d="M 150 260 C 208 248, 252 272, 310 260 C 348 252, 382 250, 410 254" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.32"/>
+  <path d="M 156 272 C 212 260, 274 266, 336 264 C 370 264, 394 262, 412 258" fill="none" stroke="#e56fa0" stroke-width="3" opacity="0.32"/>
+</g>
+</g>
+</svg>

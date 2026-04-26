@@ -1,0 +1,54 @@
+{
+  "id": "obj_38_canvas",
+  "number": 38,
+  "displayNameRu": "Холст на мольберте",
+  "displayNameEn": "Canvas on Easel",
+  "category": "artObject",
+  "family": "flatMounted",
+  "template": "templateCanvas",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.5,
+    "height": 0.65,
+    "depth": 0.035
+  },
+  "detailLevel": "low",
+  "polyBudget": {
+    "targetTris": 80,
+    "maxTris": 160
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": false
+  },
+  "allowedPrimitives": [
+    "panelRect",
+    "frameRect"
+  ],
+  "requiredParts": [
+    "canvasPlane",
+    "frameThin"
+  ],
+  "requiredHooks": [
+    "easel_canvas_mount"
+  ],
+  "requiredMaterialSlots": [
+    "paper",
+    "paintedFrame"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [],
+  "blueprintSources": {
+    "front": "room_objects_51_images/38_canvas_front_view.svg",
+    "top": "room_objects_51_images/38_canvas_top_view.svg",
+    "side": "room_objects_51_images/38_canvas_side_view.svg"
+  },
+  "projectionRules": {
+    "front": "Controls pale outer panel and white inner face.",
+    "top": "Controls thin canvas thickness.",
+    "side": "Controls flat panel depth."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: тонкий светлый холст с белой внутренней плоскостью. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

@@ -1,0 +1,7 @@
+{
+  "id": "obj_51_laundry_basket",
+  "sourceSpec": "object_specs_51/specs/obj_51_laundry_basket_spec.json",
+  "projectionPriority": ["front", "top", "side"],
+  "modelingNotes": "Laundry basket rebuilt from corrected SVG views: tapered pink body, pale open rim, visible inner well, and soft inner curve. Dimensions follow the 0.52 x 0.34 x 0.52 m drawing.",
+  "parts": ["tapered_pink_laundry_basket_body", "pale_open_basket_rim", "visible_inner_basket_well", "pale_inside_front_curve"]
+}

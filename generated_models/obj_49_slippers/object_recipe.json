@@ -1,0 +1,7 @@
+{
+  "id": "obj_49_slippers",
+  "sourceSpec": "object_specs_51/specs/obj_49_slippers_spec.json",
+  "projectionPriority": ["top", "front", "side"],
+  "modelingNotes": "Pair of slippers rebuilt from top view: two cream soles with separate pink and mint upper wraps, preserving the corrected palette and 0.10 m height.",
+  "parts": ["cream_soft_slipper_sole", "colored_slipper_upper", "thin_upper_edge"]
+}

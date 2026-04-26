@@ -1,0 +1,31 @@
+{
+  "id": "obj_08_window",
+  "template": "templateWindowFlat",
+  "dimensions": { "width": 2.2, "height": 0.62, "depth": 0.08 },
+  "parts": [
+    { "id": "outer_frame", "primitive": "roundedBox", "materialSlot": "paintedFrame" },
+    { "id": "glass_left", "primitive": "panelRect", "materialSlot": "glass" },
+    { "id": "glass_right", "primitive": "panelRect", "materialSlot": "glass" },
+    { "id": "center_mullion", "primitive": "roundedBox", "materialSlot": "paintedFrame" },
+    { "id": "sill", "primitive": "roundedBox", "materialSlot": "paintedFrame" }
+  ],
+  "materialSlots": {
+    "paintedFrame": "frame, mullion and sill",
+    "glass": "window glazing"
+  },
+  "sockets": {
+    "wall_mount_center": { "position": [0, 0.31, 0] },
+    "curtain_rail_left": { "position": [-1.0, 0.62, 0] },
+    "curtain_rail_right": { "position": [1.0, 0.62, 0] }
+  },
+  "exportMeta": {
+    "units": "meters",
+    "projectionDriven": true,
+    "primaryProjection": "front",
+    "sources": {
+      "frontSvg": "room_objects_51_images/08_window_front_view.svg",
+      "topSvg": "room_objects_51_images/08_window_top_view.svg",
+      "sideSvg": "room_objects_51_images/08_window_side_view.svg"
+    }
+  }
+}

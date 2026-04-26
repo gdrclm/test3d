@@ -1,0 +1,57 @@
+{
+  "id": "obj_41_poster_01",
+  "number": 41,
+  "displayNameRu": "Первый постер",
+  "displayNameEn": "Poster 01",
+  "category": "wallObject",
+  "family": "flatWallDecor",
+  "template": "templatePoster",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.42,
+    "height": 0.6,
+    "depth": 0.02
+  },
+  "detailLevel": "low",
+  "polyBudget": {
+    "targetTris": 40,
+    "maxTris": 100
+  },
+  "symmetry": {
+    "x": false,
+    "y": false,
+    "z": false
+  },
+  "allowedPrimitives": [
+    "panelRect"
+  ],
+  "requiredParts": [
+    "posterPlane",
+    "graphicZone"
+  ],
+  "requiredHooks": [
+    "wall_mount_center"
+  ],
+  "requiredMaterialSlots": [
+    "paper"
+  ],
+  "deformationProfile": "semiSoft",
+  "animationPotential": [],
+  "notes": "Почти плоский объект с decal/graphic zone. Poster 01 dimensions and palette are corrected from SVG: pink graphic field, cream sun, white/lavender arcs, 0.02 m wall thickness. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene.",
+  "blueprintSources": {
+    "front": "room_objects_51_images/41_poster_01_front_view.svg",
+    "top": "room_objects_51_images/41_poster_01_top_view.svg",
+    "side": "room_objects_51_images/41_poster_01_side_view.svg",
+    "sheet": "room_objects_51_images/41_poster_01_orthographic_3view_sheet.svg"
+  },
+  "projectionRules": {
+    "primary": "front",
+    "secondary": [
+      "top",
+      "side"
+    ],
+    "scaleSource": "svg_dimension_labels",
+    "colorSource": "svg_fill_palette"
+  }
+}

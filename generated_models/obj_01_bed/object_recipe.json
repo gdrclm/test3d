@@ -1,0 +1,213 @@
+{
+  "id": "obj_01_bed",
+  "family": "sleepingFurniture",
+  "template": "templateBed",
+  "dimensions": {
+    "width": 0.95,
+    "height": 0.55,
+    "depth": 2.0
+  },
+  "parts": [
+    {
+      "id": "headboard",
+      "primitive": "roundedBox",
+      "params": { "width": 0.8625, "height": 0.46875, "depth": 0.2125, "radius": 0.04, "segments": 10 },
+      "transform": { "position": [0, 0.23438, -0.89375], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "materialSlot": "woodMain",
+      "editable": true,
+      "deformable": false,
+      "animatable": false,
+      "parent": null,
+      "children": [
+        "footboard",
+        "side_rail_left",
+        "side_rail_right",
+        "base_platform",
+        "mattress_zone",
+        "pillow_left",
+        "pillow_right",
+        "blanket_zone",
+        "support_rear",
+        "support_center",
+        "support_front"
+      ]
+    },
+    {
+      "id": "footboard",
+      "primitive": "roundedBox",
+      "params": { "width": 0.85, "height": 0.32813, "depth": 0.18125, "radius": 0.03, "segments": 8 },
+      "transform": { "position": [0, 0.16406, 0.90938], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "materialSlot": "woodMain",
+      "editable": true,
+      "deformable": false,
+      "animatable": false,
+      "parent": "headboard",
+      "children": []
+    },
+    {
+      "id": "side_rail_left",
+      "primitive": "roundedBox",
+      "params": { "width": 0.06875, "height": 0.06, "depth": 1.55531, "radius": 0.018, "segments": 6 },
+      "transform": { "position": [-0.44063, 0.06, 0.02156], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "materialSlot": "woodMain",
+      "editable": true,
+      "deformable": false,
+      "animatable": false,
+      "parent": "headboard",
+      "children": []
+    },
+    {
+      "id": "side_rail_right",
+      "primitive": "roundedBox",
+      "params": { "width": 0.06875, "height": 0.06, "depth": 1.55531, "radius": 0.018, "segments": 6 },
+      "transform": { "position": [0.44063, 0.06, 0.02156], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "materialSlot": "woodMain",
+      "editable": true,
+      "deformable": false,
+      "animatable": false,
+      "parent": "headboard",
+      "children": []
+    },
+    {
+      "id": "base_platform",
+      "primitive": "roundedBox",
+      "params": { "width": 0.95, "height": 0.225, "depth": 1.775, "radius": 0.02, "segments": 8 },
+      "transform": { "position": [0, 0.1125, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "materialSlot": "woodAccent",
+      "editable": true,
+      "deformable": false,
+      "animatable": false,
+      "parent": "headboard",
+      "children": []
+    },
+    {
+      "id": "mattress_zone",
+      "primitive": "softBox",
+      "params": { "width": 0.8125, "height": 0.15, "depth": 1.8625, "radius": 0.04, "segments": 12 },
+      "transform": { "position": [0, 0.275, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "materialSlot": "fabricMain",
+      "editable": true,
+      "deformable": true,
+      "animatable": false,
+      "parent": "headboard",
+      "children": []
+    },
+    {
+      "id": "pillow_left",
+      "primitive": "softBox",
+      "params": { "width": 0.34375, "height": 0.15, "depth": 0.2, "radius": 0.04, "segments": 8 },
+      "transform": { "position": [-0.19063, 0.375, -0.78125], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "materialSlot": "fabricMain",
+      "editable": true,
+      "deformable": true,
+      "animatable": false,
+      "parent": "headboard",
+      "children": []
+    },
+    {
+      "id": "pillow_right",
+      "primitive": "softBox",
+      "params": { "width": 0.34375, "height": 0.15, "depth": 0.2, "radius": 0.04, "segments": 8 },
+      "transform": { "position": [0.20938, 0.375, -0.78125], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "materialSlot": "fabricMain",
+      "editable": true,
+      "deformable": true,
+      "animatable": false,
+      "parent": "headboard",
+      "children": []
+    },
+    {
+      "id": "blanket_zone",
+      "primitive": "softBox",
+      "params": { "width": 0.7375, "height": 0.16875, "depth": 1.40625, "radius": 0.04, "segments": 12 },
+      "transform": { "position": [0, 0.3375, 0.08438], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "materialSlot": "fabricAccent",
+      "editable": true,
+      "deformable": true,
+      "animatable": false,
+      "parent": "headboard",
+      "children": []
+    },
+    {
+      "id": "support_rear",
+      "primitive": "roundedBox",
+      "params": { "width": 0.0875, "height": 0.10625, "depth": 0.0875, "radius": 0.012, "segments": 4 },
+      "transform": { "position": [0, 0.05313, -0.825], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "materialSlot": "woodAccent",
+      "editable": true,
+      "deformable": false,
+      "animatable": false,
+      "parent": "headboard",
+      "children": []
+    },
+    {
+      "id": "support_center",
+      "primitive": "roundedBox",
+      "params": { "width": 0.0875, "height": 0.10625, "depth": 0.0875, "radius": 0.012, "segments": 4 },
+      "transform": { "position": [0, 0.05313, 0.0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "materialSlot": "woodAccent",
+      "editable": true,
+      "deformable": false,
+      "animatable": false,
+      "parent": "headboard",
+      "children": []
+    },
+    {
+      "id": "support_front",
+      "primitive": "roundedBox",
+      "params": { "width": 0.0875, "height": 0.10625, "depth": 0.0875, "radius": 0.012, "segments": 4 },
+      "transform": { "position": [0, 0.05313, 0.825], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "materialSlot": "woodAccent",
+      "editable": true,
+      "deformable": false,
+      "animatable": false,
+      "parent": "headboard",
+      "children": []
+    }
+  ],
+  "materialSlots": {
+    "woodMain": "headboard, footboard and side rails",
+    "woodAccent": "base platform and support feet",
+    "fabricMain": "mattress and pillows",
+    "fabricAccent": "blanket"
+  },
+  "pivots": {
+    "floor_center": { "position": [0, 0, 0] },
+    "bed_center": { "position": [0, 0.1125, 0] }
+  },
+  "sockets": {
+    "blanket_anchor": { "position": [0, 0.3375, 0.08438] },
+    "pillow_slot_left": { "position": [-0.19063, 0.375, -0.78125] },
+    "pillow_slot_right": { "position": [0.20938, 0.375, -0.78125] },
+    "plush_slot": { "position": [0, 0.305, -0.18] }
+  },
+  "deformZones": {
+    "rigid": ["headboard", "footboard", "side_rail_left", "side_rail_right", "base_platform", "support_rear", "support_center", "support_front"],
+    "semiSoft": ["mattress_zone"],
+    "soft": ["pillow_left", "pillow_right", "blanket_zone"]
+  },
+  "animationHooks": {},
+  "collisionProxy": {
+    "type": "box",
+    "size": [0.95, 0.55, 2.0],
+    "offset": [0, 0.275, 0]
+  },
+  "lodPolicy": {
+    "strategy": "single_lod",
+    "targetTris": 1300,
+    "maxTris": 2200
+  },
+  "exportMeta": {
+    "units": "meters",
+    "pivot": "floor_center",
+    "styleProfile": "cartoon_soft_lowpoly",
+    "sources": {
+      "frontSvg": "generated_models/obj_01_bed/sources/bed_front_view.svg",
+      "topSvg": "generated_models/obj_01_bed/sources/bed_top_view.svg",
+      "sideSvg": "generated_models/obj_01_bed/sources/bed_side_view.svg"
+    },
+    "svgScaleMetersPerPixel": 0.003125,
+    "projectionDriven": true,
+    "primaryProjection": "top"
+  }
+}

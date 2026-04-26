@@ -1,0 +1,58 @@
+{
+  "id": "obj_17_shelf_plush",
+  "number": 17,
+  "displayNameRu": "Плюшевая игрушка на полке",
+  "displayNameEn": "Shelf Plush Toy",
+  "category": "toy",
+  "family": "shelfProp",
+  "template": "templateSmallPlush",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.2,
+    "height": 0.24,
+    "depth": 0.16
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 240,
+    "maxTris": 520
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": false
+  },
+  "allowedPrimitives": [
+    "sphere",
+    "softBox",
+    "capsule"
+  ],
+  "requiredParts": [
+    "body",
+    "head",
+    "smallAccents"
+  ],
+  "requiredHooks": [
+    "shelf_attach_center"
+  ],
+  "requiredMaterialSlots": [
+    "plush",
+    "fabricAccent"
+  ],
+  "deformationProfile": "soft",
+  "animationPotential": [
+    "soft_secondary_motion"
+  ],
+  "blueprintSources": {
+    "front": "room_objects_51_images/17_shelf_plush_front_view.svg",
+    "top": "room_objects_51_images/17_shelf_plush_top_view.svg",
+    "side": "room_objects_51_images/17_shelf_plush_side_view.svg"
+  },
+  "projectionRules": {
+    "front": "Controls head, ears, body, muzzle, eyes and paws.",
+    "side": "Controls plush depth and forward muzzle offset.",
+    "top": "Controls compact rounded footprint."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: плюшевая игрушка собирается из отдельных эллипсоидных частей, чтобы фронтальный силуэт не превращался в один шар. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

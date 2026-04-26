@@ -1,0 +1,61 @@
+{
+  "id": "obj_40_wall_clock",
+  "number": 40,
+  "displayNameRu": "Настенные часы",
+  "displayNameEn": "Wall Clock",
+  "category": "wallObject",
+  "family": "flatWallDecor",
+  "template": "templateWallClock",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.3,
+    "height": 0.3,
+    "depth": 0.045
+  },
+  "detailLevel": "low",
+  "polyBudget": {
+    "targetTris": 120,
+    "maxTris": 220
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": true
+  },
+  "allowedPrimitives": [
+    "cylinder",
+    "panelRect",
+    "softCylinder"
+  ],
+  "requiredParts": [
+    "clockBody",
+    "dialZone",
+    "handHour",
+    "handMinute"
+  ],
+  "requiredHooks": [
+    "wall_mount_center",
+    "clock_hand_pivot"
+  ],
+  "requiredMaterialSlots": [
+    "plasticMain",
+    "glass",
+    "metalAccent"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [
+    "clock_hand_pivot"
+  ],
+  "blueprintSources": {
+    "front": "room_objects_51_images/40_wall_clock_front_view.svg",
+    "top": "room_objects_51_images/40_wall_clock_top_view.svg",
+    "side": "room_objects_51_images/40_wall_clock_side_view.svg"
+  },
+  "projectionRules": {
+    "front": "Controls round face, inner ring, center pin and two hands.",
+    "top": "Controls flat circular wall-object footprint.",
+    "side": "Controls 0.05m wall depth."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: тонкие круглые настенные часы со светлым циферблатом и серыми стрелками. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

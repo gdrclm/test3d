@@ -1,0 +1,64 @@
+{
+  "id": "obj_27_office_chair",
+  "number": 27,
+  "displayNameRu": "Стул на колёсиках",
+  "displayNameEn": "Chair on Wheels",
+  "category": "furniture",
+  "family": "seatingFurniture",
+  "template": "templateOfficeChair",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.52,
+    "height": 0.88,
+    "depth": 0.58
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 1000,
+    "maxTris": 1700
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": false
+  },
+  "allowedPrimitives": [
+    "roundedBox",
+    "softBox",
+    "cylinder",
+    "capsule"
+  ],
+  "requiredParts": [
+    "seat",
+    "backrest",
+    "centralSupport",
+    "baseArms",
+    "wheelsSimplified"
+  ],
+  "requiredHooks": [
+    "seat_center",
+    "chair_spin_axis"
+  ],
+  "requiredMaterialSlots": [
+    "fabricMain",
+    "plasticMain",
+    "metalAccent"
+  ],
+  "deformationProfile": "mixed",
+  "animationPotential": [
+    "chair_spin_axis",
+    "backrest_tilt_optional"
+  ],
+  "blueprintSources": {
+    "front": "room_objects_51_images/27_rolling_chair_front_view.svg",
+    "top": "room_objects_51_images/27_rolling_chair_top_view.svg",
+    "side": "room_objects_51_images/27_rolling_chair_side_view.svg"
+  },
+  "projectionRules": {
+    "front": "Controls pink backrest, pink seat, central post and three visible wheels.",
+    "top": "Controls wider backrest, seat overlap and five-star caster base.",
+    "side": "Controls back/seat offset and total depth."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: розовая спинка и сиденье, серая база-звезда, светлые колёсики. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

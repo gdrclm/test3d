@@ -1,0 +1,7 @@
+{
+  "id": "obj_28_toy_box",
+  "sourceSpec": "object_specs_51/specs/obj_28_toy_box_spec.json",
+  "projectionPriority": ["top", "front", "side"],
+  "modelingNotes": "Toy box rebuilt to the corrected small dimensions with wood body, overhanging lid and yellow handle.",
+  "parts": ["rounded_toy_box_body", "overhanging_toy_box_lid", "top_center_handle"]
+}

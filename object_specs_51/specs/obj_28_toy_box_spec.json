@@ -1,0 +1,59 @@
+{
+  "id": "obj_28_toy_box",
+  "number": 28,
+  "displayNameRu": "Ящик для игрушек",
+  "displayNameEn": "Toy Box",
+  "category": "furniture",
+  "family": "containerFurniture",
+  "template": "templateToyBox",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.55,
+    "height": 0.32,
+    "depth": 0.38
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 700,
+    "maxTris": 1100
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": true
+  },
+  "allowedPrimitives": [
+    "roundedBox",
+    "panelRect"
+  ],
+  "requiredParts": [
+    "body",
+    "lid",
+    "frontAccent"
+  ],
+  "requiredHooks": [
+    "lid_hinge_back",
+    "top_surface_center"
+  ],
+  "requiredMaterialSlots": [
+    "plasticMain",
+    "woodAccent",
+    "fabricAccent"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [
+    "lid_open"
+  ],
+  "blueprintSources": {
+    "front": "room_objects_51_images/28_toy_box_front_view.svg",
+    "top": "room_objects_51_images/28_toy_box_top_view.svg",
+    "side": "room_objects_51_images/28_toy_box_side_view.svg"
+  },
+  "projectionRules": {
+    "top": "Controls 0.48m x 0.32m footprint, lid inset and top handle.",
+    "front": "Controls 0.28m height, body and lid band.",
+    "side": "Controls matching box depth and lid overhang."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: небольшой деревянный ящик с выступающей крышкой и жёлтой ручкой. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

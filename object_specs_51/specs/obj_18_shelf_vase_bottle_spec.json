@@ -1,0 +1,54 @@
+{
+  "id": "obj_18_shelf_vase_bottle",
+  "number": 18,
+  "displayNameRu": "Ваза/бутылка на полке",
+  "displayNameEn": "Shelf Vase or Bottle",
+  "category": "decor",
+  "family": "rotationalProp",
+  "template": "templateLatheProp",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.12,
+    "height": 0.26,
+    "depth": 0.12
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 160,
+    "maxTris": 320
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": true
+  },
+  "allowedPrimitives": [
+    "latheProfile",
+    "cylinder"
+  ],
+  "requiredParts": [
+    "mainBody",
+    "neckOrLip"
+  ],
+  "requiredHooks": [
+    "shelf_attach_center"
+  ],
+  "requiredMaterialSlots": [
+    "glass",
+    "plasticMain"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [],
+  "blueprintSources": {
+    "front": "room_objects_51_images/18_shelf_vase_bottle_front_view.svg",
+    "top": "room_objects_51_images/18_shelf_vase_bottle_top_view.svg",
+    "side": "room_objects_51_images/18_shelf_vase_bottle_side_view.svg"
+  },
+  "projectionRules": {
+    "front": "Controls lathe profile: base, belly, neck and rim.",
+    "side": "Must match the same rotational silhouette.",
+    "top": "Controls circular footprint."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: вращательная ваза/бутылка с широким основанием, округлым корпусом, узкой горловиной и отдельным ободком. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

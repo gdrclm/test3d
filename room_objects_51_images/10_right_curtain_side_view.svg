@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" width="900" height="390" viewBox="0 0 900 390">
+<defs>
+  <linearGradient id="gPink" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ffd4e4"/><stop offset="100%" stop-color="#e56fa0"/>
+  </linearGradient>
+  <linearGradient id="gWood" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f5d4bd"/><stop offset="100%" stop-color="#d6a47a"/>
+  </linearGradient>
+  <linearGradient id="gBlue" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#aee3ff"/><stop offset="100%" stop-color="#78c6ea"/>
+  </linearGradient>
+  <linearGradient id="gMint" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#86d7c0"/><stop offset="100%" stop-color="#63b79e"/>
+  </linearGradient>
+  <linearGradient id="gLav" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#c9b5ff"/><stop offset="100%" stop-color="#aa92ef"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="900" height="390" fill="#fff8fb"/><g><line x1="40" y1="40" x2="40" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="80" y1="40" x2="80" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="120" y1="40" x2="120" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="160" y1="40" x2="160" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="200" y1="40" x2="200" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="240" y1="40" x2="240" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="280" y1="40" x2="280" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="320" y1="40" x2="320" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="360" y1="40" x2="360" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="400" y1="40" x2="400" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="440" y1="40" x2="440" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="480" y1="40" x2="480" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="520" y1="40" x2="520" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="560" y1="40" x2="560" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="600" y1="40" x2="600" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="640" y1="40" x2="640" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="680" y1="40" x2="680" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="720" y1="40" x2="720" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="760" y1="40" x2="760" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="800" y1="40" x2="800" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="840" y1="40" x2="840" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="880" y1="40" x2="880" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="40" x2="860" y2="40" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="80" x2="860" y2="80" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="120" x2="860" y2="120" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="160" x2="860" y2="160" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="200" x2="860" y2="200" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="240" x2="860" y2="240" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="280" x2="860" y2="280" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="320" x2="860" y2="320" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="360" x2="860" y2="360" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/></g><text x="450.0" y="34" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#5c4352" text-anchor="middle">Правая штора — вид сбоку / SIDE</text>
+<g>
+  <line x1="450" y1="84" x2="450" y2="312" stroke="#b98aa0" stroke-width="3" stroke-dasharray="8 8"/>
+  <rect x="286" y="90" width="140" height="12" rx="6" fill="#d6a47a" stroke="#2f2530" stroke-width="2"/>
+  <path d="M 294 102 C 308 132, 312 166, 310 204 C 308 234, 302 262, 292 282 L 424 282 C 430 270, 436 248, 438 218 C 440 172, 432 132, 416 102 Z"
+        fill="url(#gLav)" stroke="#2f2530" stroke-width="4"/>
+  <path d="M 318 108 C 316 146, 312 186, 306 226 C 302 248, 298 264, 294 276" fill="none" stroke="#ead1dc" stroke-width="4" opacity="0.32"/>
+  <path d="M 346 106 C 342 142, 342 180, 346 220 C 350 244, 356 262, 362 276" fill="none" stroke="#ead1dc" stroke-width="4" opacity="0.4"/>
+  <path d="M 374 108 C 384 136, 388 170, 386 208 C 384 238, 380 260, 374 276" fill="none" stroke="#ead1dc" stroke-width="4" opacity="0.52"/>
+</g>
+<line x1="286" y1="332" x2="426" y2="332" stroke="#b98aa0" stroke-width="2"/><line x1="286" y1="324" x2="286" y2="340" stroke="#b98aa0" stroke-width="2"/><line x1="426" y1="324" x2="426" y2="340" stroke="#b98aa0" stroke-width="2"/><text x="356.0" y="320" font-family="Arial, sans-serif" font-size="18" fill="#5c4352" text-anchor="middle">глубина 0.09 м</text><line x1="448" y1="90" x2="448" y2="282" stroke="#b98aa0" stroke-width="2"/><line x1="440" y1="90" x2="456" y2="90" stroke="#b98aa0" stroke-width="2"/><line x1="440" y1="282" x2="456" y2="282" stroke="#b98aa0" stroke-width="2"/><text x="420" y="186.0" transform="rotate(-90 420 186.0)" font-family="Arial, sans-serif" font-size="18" fill="#5c4352" text-anchor="middle">высота 1.10 м</text></svg>

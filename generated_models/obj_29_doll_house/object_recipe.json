@@ -1,0 +1,7 @@
+{
+  "id": "obj_29_doll_house",
+  "sourceSpec": "object_specs_51/specs/obj_29_doll_house_spec.json",
+  "projectionPriority": ["front", "top", "side"],
+  "modelingNotes": "Doll house rebuilt from corrected small house SVGs: yellow body, pink roof, white door and small chimney.",
+  "parts": ["small_doll_house_body", "pink_roof_prism", "white_front_door", "tiny_roof_chimney"]
+}

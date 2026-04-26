@@ -1,0 +1,50 @@
+{
+  "id": "obj_07_bedside_lamp",
+  "number": 7,
+  "displayNameRu": "Прикроватная лампа",
+  "displayNameEn": "Bedside Lamp",
+  "category": "lighting",
+  "family": "tableLighting",
+  "template": "templateLamp",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.24,
+    "height": 0.42,
+    "depth": 0.24
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 420,
+    "maxTris": 760
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": true
+  },
+  "allowedPrimitives": [
+    "cylinder",
+    "cone",
+    "sphere",
+    "roundedBox"
+  ],
+  "requiredParts": [
+    "base",
+    "stem",
+    "shade",
+    "bulb"
+  ],
+  "requiredHooks": [
+    "light_emitter",
+    "table_attach_center"
+  ],
+  "requiredMaterialSlots": [
+    "plasticMain",
+    "woodAccent",
+    "glass"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [],
+  "notes": "SVG 07_bedside_lamp задают осесимметричную настольную лампу: база диаметром 0.22 м, общая высота 0.42 м, центральная стойка и конусообразный абажур. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

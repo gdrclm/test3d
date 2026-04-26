@@ -1,0 +1,22 @@
+{
+  "id": "obj_02_pink_blanket",
+  "template": "templateSoftSurface",
+  "dimensions": { "width": 0.78, "height": 0.12, "depth": 1.8 },
+  "parts": [
+    { "id": "blanket_mass", "primitive": "softBox", "materialSlot": "fabricMain" },
+    { "id": "front_fold", "primitive": "softBox", "materialSlot": "fabricAccent" },
+    { "id": "surface_wave_set", "primitive": "panelRect", "materialSlot": "fabricAccent" }
+  ],
+  "materialSlots": { "fabricMain": "main blanket body", "fabricAccent": "front fold and highlights" },
+  "sockets": { "bed_attach_zone": { "position": [0, 0.01, 0] } },
+  "exportMeta": {
+    "units": "meters",
+    "projectionDriven": true,
+    "primaryProjection": "top",
+    "sources": {
+      "frontSvg": "room_objects_51_images/02_pink_blanket_front_view.svg",
+      "topSvg": "room_objects_51_images/02_pink_blanket_top_view.svg",
+      "sideSvg": "room_objects_51_images/02_pink_blanket_side_view.svg"
+    }
+  }
+}

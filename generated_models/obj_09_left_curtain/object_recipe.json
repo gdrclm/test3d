@@ -1,0 +1,21 @@
+{
+  "id": "obj_09_left_curtain",
+  "template": "templateCurtain",
+  "dimensions": { "width": 0.28, "height": 1.1, "depth": 0.09 },
+  "parts": [
+    { "id": "curtain_rod_stub", "primitive": "roundedBox", "materialSlot": "rodAccent" },
+    { "id": "cloth_body", "primitive": "softBox", "materialSlot": "fabricMain" }
+  ],
+  "materialSlots": { "fabricMain": "cloth body", "rodAccent": "top rod" },
+  "sockets": { "curtain_mount_top_left": { "position": [0, 1.1, 0] } },
+  "exportMeta": {
+    "units": "meters",
+    "projectionDriven": true,
+    "primaryProjection": "front",
+    "sources": {
+      "frontSvg": "room_objects_51_images/09_left_curtain_front_view.svg",
+      "topSvg": "room_objects_51_images/09_left_curtain_top_view.svg",
+      "sideSvg": "room_objects_51_images/09_left_curtain_side_view.svg"
+    }
+  }
+}

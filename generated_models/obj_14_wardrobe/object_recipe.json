@@ -1,0 +1,7 @@
+{
+  "id": "obj_14_wardrobe",
+  "sourceSpec": "object_specs_51/specs/obj_14_wardrobe_spec.json",
+  "projectionPriority": ["front", "top", "side"],
+  "modelingNotes": "Wardrobe rebuilt with a rounded cabinet footprint, two front door panels, central seam, top cap and bottom plinth.",
+  "parts": ["wardrobe_outer_body", "front_recessed_door_field", "left_door_panel", "right_door_panel", "central_vertical_seam", "vertical_pull_handle"]
+}

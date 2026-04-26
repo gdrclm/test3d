@@ -1,0 +1,9 @@
+{
+  "id": "obj_36_bean_bag",
+  "sourceSpec": "object_specs_51/specs/obj_36_bean_bag_spec.json",
+  "projectionPriority": ["front", "top", "side"],
+  "modelingNotes": "Bean bag rebuilt as one smooth flatter dense SVG-profiled soft body instead of two ellipsoids. Raised folds, rims, and lower contours are intentionally omitted so the front/side reads as one continuous squashed silhouette.",
+  "parts": [
+    "single_svg_profiled_bean_bag_body"
+  ]
+}

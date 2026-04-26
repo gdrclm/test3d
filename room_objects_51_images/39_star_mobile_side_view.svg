@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" width="900" height="390" viewBox="0 0 900 390">
+<defs>
+  <linearGradient id="gPink" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ffd4e4"/><stop offset="100%" stop-color="#e56fa0"/>
+  </linearGradient>
+  <linearGradient id="gMint" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#86d7c0"/><stop offset="100%" stop-color="#63b79e"/>
+  </linearGradient>
+  <linearGradient id="gLav" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#c9b5ff"/><stop offset="100%" stop-color="#aa92ef"/>
+  </linearGradient>
+  <linearGradient id="gWood" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f5d4bd"/><stop offset="100%" stop-color="#d6a47a"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="900" height="390" fill="#fff8fb"/><g><line x1="40" y1="40" x2="40" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="80" y1="40" x2="80" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="120" y1="40" x2="120" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="160" y1="40" x2="160" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="200" y1="40" x2="200" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="240" y1="40" x2="240" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="280" y1="40" x2="280" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="320" y1="40" x2="320" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="360" y1="40" x2="360" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="400" y1="40" x2="400" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="440" y1="40" x2="440" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="480" y1="40" x2="480" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="520" y1="40" x2="520" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="560" y1="40" x2="560" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="600" y1="40" x2="600" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="640" y1="40" x2="640" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="680" y1="40" x2="680" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="720" y1="40" x2="720" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="760" y1="40" x2="760" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="800" y1="40" x2="800" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="840" y1="40" x2="840" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="880" y1="40" x2="880" y2="350" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="40" x2="860" y2="40" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="80" x2="860" y2="80" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="120" x2="860" y2="120" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="160" x2="860" y2="160" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="200" x2="860" y2="200" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="240" x2="860" y2="240" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="280" x2="860" y2="280" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="320" x2="860" y2="320" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="360" x2="860" y2="360" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/></g><text x="450.0" y="34" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#5c4352" text-anchor="middle">Мобиль со звёздами — вид сбоку / SIDE</text>
+<g>
+  <!-- true side view: stacked bars and stars seen from side, no twisted top view -->
+  <line x1="450" y1="36" x2="450" y2="78" stroke="#677088" stroke-width="3"/>
+  <circle cx="450" cy="88" r="10" fill="#d7dbe6" stroke="#2f2530" stroke-width="2"/>
+  <line x1="450" y1="98" x2="450" y2="136" stroke="#677088" stroke-width="3"/>
+
+  <!-- first bar seen from side -->
+  <line x1="392" y1="136" x2="508" y2="136" stroke="#677088" stroke-width="3"/>
+  <line x1="392" y1="136" x2="392" y2="220" stroke="#677088" stroke-width="2"/>
+  <line x1="450" y1="136" x2="450" y2="240" stroke="#677088" stroke-width="2"/>
+  <line x1="508" y1="136" x2="508" y2="208" stroke="#677088" stroke-width="2"/>
+
+  <!-- stars seen edge-on / side-on -->
+  <polygon points="392,220 400,234 416,236 404,246 408,262 392,254 378,262 382,246 370,236 386,234" fill="#fff4c7" stroke="#2f2530" stroke-width="2"/>
+  <polygon points="450,240 458,254 474,256 462,266 466,282 450,274 436,282 440,266 428,256 444,254" fill="#aee3ff" stroke="#2f2530" stroke-width="2"/>
+  <polygon points="508,208 516,222 532,224 520,234 524,250 508,242 494,250 498,234 486,224 502,222" fill="#c9b5ff" stroke="#2f2530" stroke-width="2"/>
+
+  <!-- second lower offset bar -->
+  <line x1="430" y1="168" x2="534" y2="168" stroke="#677088" stroke-width="2.5"/>
+  <line x1="430" y1="168" x2="430" y2="288" stroke="#677088" stroke-width="2"/>
+  <line x1="534" y1="168" x2="534" y2="272" stroke="#677088" stroke-width="2"/>
+  <polygon points="430,288 438,302 454,304 442,314 446,330 430,322 416,330 420,314 408,304 424,302" fill="#86d7c0" stroke="#2f2530" stroke-width="2"/>
+  <polygon points="534,272 542,286 558,288 546,298 550,314 534,306 520,314 524,298 512,288 528,286" fill="#ffd4e4" stroke="#2f2530" stroke-width="2"/>
+</g>
+<line x1="370" y1="332" x2="558" y2="332" stroke="#b98aa0" stroke-width="2"/><line x1="370" y1="324" x2="370" y2="340" stroke="#b98aa0" stroke-width="2"/><line x1="558" y1="324" x2="558" y2="340" stroke="#b98aa0" stroke-width="2"/><text x="464.0" y="320" font-family="Arial, sans-serif" font-size="18" fill="#5c4352" text-anchor="middle">звезды показаны сбоку</text><line x1="370" y1="36" x2="370" y2="330" stroke="#b98aa0" stroke-width="2"/><line x1="362" y1="36" x2="378" y2="36" stroke="#b98aa0" stroke-width="2"/><line x1="362" y1="330" x2="378" y2="330" stroke="#b98aa0" stroke-width="2"/><text x="342" y="183.0" transform="rotate(-90 342 183.0)" font-family="Arial, sans-serif" font-size="18" fill="#5c4352" text-anchor="middle">высота подвеса</text></svg>

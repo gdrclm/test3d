@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ModelRecipe",
+  "type": "object",
+  "required": [
+    "id",
+    "family",
+    "template",
+    "dimensions",
+    "parts",
+    "materialSlots",
+    "pivots",
+    "sockets",
+    "deformZones",
+    "animationHooks",
+    "collisionProxy",
+    "lodPolicy",
+    "exportMeta"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "family": { "type": "string" },
+    "template": { "type": "string" },
+    "dimensions": {
+      "type": "object",
+      "required": ["width", "height", "depth"],
+      "properties": {
+        "width": { "type": "number" },
+        "height": { "type": "number" },
+        "depth": { "type": "number" }
+      }
+    },
+    "parts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "primitive",
+          "params",
+          "transform",
+          "materialSlot",
+          "editable",
+          "deformable",
+          "animatable"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "primitive": { "type": "string" },
+          "params": { "type": "object" },
+          "transform": { "type": "object" },
+          "materialSlot": { "type": "string" },
+          "editable": { "type": "boolean" },
+          "deformable": { "type": "boolean" },
+          "animatable": { "type": "boolean" },
+          "parent": { "type": ["string", "null"] },
+          "children": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "materialSlots": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "pivots": {
+      "type": "object",
+      "additionalProperties": { "type": "object" }
+    },
+    "sockets": {
+      "type": "object",
+      "additionalProperties": { "type": "object" }
+    },
+    "deformZones": {
+      "type": "object",
+      "additionalProperties": { "type": "object" }
+    },
+    "animationHooks": {
+      "type": "object",
+      "additionalProperties": { "type": "object" }
+    },
+    "collisionProxy": { "type": "object" },
+    "lodPolicy": { "type": "object" },
+    "exportMeta": { "type": "object" }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "obj_21_desk",
+  "category": "furniture",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 1.4,
+    "height": 0.78,
+    "depth": 0.65
+  },
+  "requiredTemplate": "templateDesk",
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 900,
+    "maxTris": 1400
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": false
+  },
+  "allowedPrimitives": [
+    "roundedBox",
+    "panelRect",
+    "softCylinder",
+    "cylinder"
+  ],
+  "requiredParts": [
+    "tableTop",
+    "supportSystem"
+  ],
+  "requiredHooks": [
+    "desktop_monitor_slot",
+    "desktop_lamp_slot",
+    "desktop_notebook_slot"
+  ],
+  "requiredMaterialSlots": [
+    "woodMain",
+    "woodAccent"
+  ]
+}

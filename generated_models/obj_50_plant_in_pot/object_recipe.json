@@ -1,0 +1,7 @@
+{
+  "id": "obj_50_plant_in_pot",
+  "sourceSpec": "object_specs_51/specs/obj_50_plant_in_pot_spec.json",
+  "projectionPriority": ["front", "top", "side"],
+  "modelingNotes": "Potted plant rebuilt from corrected SVG views: terracotta pot, warm rim, central stem, and alternating mint/green leaves matching the blueprint colors.",
+  "parts": ["soft_terracotta_pot", "warm_pot_rim", "central_green_stem", "svg_leaf_1", "svg_leaf_2", "svg_leaf_3", "svg_leaf_4", "visible_center_plant_curve"]
+}

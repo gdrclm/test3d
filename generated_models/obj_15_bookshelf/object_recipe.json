@@ -1,0 +1,7 @@
+{
+  "id": "obj_15_bookshelf",
+  "sourceSpec": "object_specs_51/specs/obj_15_bookshelf_spec.json",
+  "projectionPriority": ["front", "side", "top"],
+  "modelingNotes": "Bookshelf rebuilt as an open rounded frame: side stiles and shelf boards carry the visible silhouette, with a thin rear panel for depth.",
+  "parts": ["thin_back_panel", "rounded_side_stile", "horizontal_shelf_board", "top_rounded_lip"]
+}

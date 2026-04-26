@@ -1,0 +1,51 @@
+{
+  "id": "obj_05_bed_toy",
+  "number": 5,
+  "displayNameRu": "Игрушка на кровати",
+  "displayNameEn": "Toy on Bed",
+  "category": "toy",
+  "family": "smallProp",
+  "template": "templateSmallPlush",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.18,
+    "height": 0.2,
+    "depth": 0.24
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 420,
+    "maxTris": 760
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": false
+  },
+  "allowedPrimitives": [
+    "sphere",
+    "blob",
+    "capsule",
+    "softBox"
+  ],
+  "requiredParts": [
+    "head",
+    "torso",
+    "ears",
+    "arms",
+    "legs"
+  ],
+  "requiredHooks": [
+    "bed_plush_slot"
+  ],
+  "requiredMaterialSlots": [
+    "plush",
+    "fabricAccent"
+  ],
+  "deformationProfile": "soft",
+  "animationPotential": [
+    "soft_secondary_motion"
+  ],
+  "notes": "Новые SVG 05_bed_toy задают правильную ориентацию: ширина по фронту 0.18 м, глубина по виду сверху и сбоку 0.28 м, высота 0.22 м. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

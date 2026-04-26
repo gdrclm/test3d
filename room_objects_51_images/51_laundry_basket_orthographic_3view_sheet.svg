@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='1400' height='980' viewBox='0 0 1400 980'>
+
+<defs>
+  <linearGradient id='gPink' x1='0' y1='0' x2='1' y2='1'>
+    <stop offset='0%' stop-color='#ffd4e4'/><stop offset='100%' stop-color='#e56fa0'/>
+  </linearGradient>
+  <linearGradient id='gWood' x1='0' y1='0' x2='1' y2='1'>
+    <stop offset='0%' stop-color='#f5d4bd'/><stop offset='100%' stop-color='#d6a47a'/>
+  </linearGradient>
+  <linearGradient id='gBlue' x1='0' y1='0' x2='1' y2='1'>
+    <stop offset='0%' stop-color='#aee3ff'/><stop offset='100%' stop-color='#78c6ea'/>
+  </linearGradient>
+  <linearGradient id='gMint' x1='0' y1='0' x2='1' y2='1'>
+    <stop offset='0%' stop-color='#86d7c0'/><stop offset='100%' stop-color='#63b79e'/>
+  </linearGradient>
+  <linearGradient id='gLav' x1='0' y1='0' x2='1' y2='1'>
+    <stop offset='0%' stop-color='#c9b5ff'/><stop offset='100%' stop-color='#aa92ef'/>
+  </linearGradient>
+</defs>
+
+<rect x='0' y='0' width='1400' height='980' fill='#fff8fb'/>
+<text x='700' y='42' font-family='Arial, sans-serif' font-size='30' font-weight='700' fill='#5c4352' text-anchor='middle'>Корзина для белья — 3 ортографических SVG-вида</text>
+<text x='700' y='72' font-family='Arial, sans-serif' font-size='17' fill='#5c4352' text-anchor='middle'>Предметы 40–51. Пастельный SVG-лист. Чистый orthographic.</text>
+<g transform='translate(160,120)'><text x='320' y='-18' font-family='Arial, sans-serif' font-size='22' font-weight='700' fill='#5c4352' text-anchor='middle'>TOP</text><g><circle cx='450' cy='252' r='116' fill='#ffd4e4' stroke='#2f2530' stroke-width='4'/><circle cx='450' cy='252' r='94' fill='#faf7ff' stroke='#2f2530' stroke-width='2'/><ellipse cx='450' cy='252' rx='76' ry='54' fill='none' stroke='#ead1dc' stroke-width='4' opacity='0.5'/><path d='M 450 178 C 420 184 404 206 406 230' fill='none' stroke='#ead1dc' stroke-width='4' opacity='0.4'/></g></g>
+<g transform='translate(160,550)'><text x='320' y='-18' font-family='Arial, sans-serif' font-size='22' font-weight='700' fill='#5c4352' text-anchor='middle'>SIDE</text><g><line x1='100' y1='292' x2='800' y2='292' stroke='#b98aa0' stroke-width='3' stroke-dasharray='10 8'/><path d='M 336 286 Q 346 198 372 170 L 528 170 Q 554 198 564 286 Z' fill='#ffd4e4' stroke='#2f2530' stroke-width='4'/><ellipse cx='450' cy='170' rx='82' ry='20' fill='#faf7ff' stroke='#2f2530' stroke-width='2'/><path d='M 388 170 Q 450 188 512 170' fill='none' stroke='#ead1dc' stroke-width='4' opacity='0.4'/></g></g>
+<g transform='translate(880,550)'><text x='152' y='-18' font-family='Arial, sans-serif' font-size='22' font-weight='700' fill='#5c4352' text-anchor='middle'>FRONT</text><g><line x1='64' y1='292' x2='496' y2='292' stroke='#b98aa0' stroke-width='3' stroke-dasharray='10 8'/><path d='M 166 286 Q 176 198 202 170 L 358 170 Q 384 198 394 286 Z' fill='#ffd4e4' stroke='#2f2530' stroke-width='4'/><ellipse cx='280' cy='170' rx='82' ry='20' fill='#faf7ff' stroke='#2f2530' stroke-width='2'/><path d='M 218 170 Q 280 188 342 170' fill='none' stroke='#ead1dc' stroke-width='4' opacity='0.4'/></g></g>
+</svg>

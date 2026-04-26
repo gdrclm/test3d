@@ -1,0 +1,63 @@
+{
+  "id": "obj_26_desk_lamp",
+  "number": 26,
+  "displayNameRu": "Настольный светильник",
+  "displayNameEn": "Desk Lamp",
+  "category": "lighting",
+  "family": "tableLighting",
+  "template": "templateLamp",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.2,
+    "height": 0.36,
+    "depth": 0.2
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 320,
+    "maxTris": 620
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": true
+  },
+  "allowedPrimitives": [
+    "cylinder",
+    "cone",
+    "roundedBox",
+    "sphere"
+  ],
+  "requiredParts": [
+    "base",
+    "stand",
+    "headOrShade",
+    "lightEmitter"
+  ],
+  "requiredHooks": [
+    "desktop_attach_center",
+    "light_emitter",
+    "lamp_head_tilt"
+  ],
+  "requiredMaterialSlots": [
+    "plasticMain",
+    "metalAccent",
+    "glass"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [
+    "lamp_head_tilt"
+  ],
+  "blueprintSources": {
+    "front": "room_objects_51_images/26_desk_lamp_front_view.svg",
+    "top": "room_objects_51_images/26_desk_lamp_top_view.svg",
+    "side": "room_objects_51_images/26_desk_lamp_side_view.svg"
+  },
+  "projectionRules": {
+    "front": "Controls 0.36m height, base, stem, shade and bulb.",
+    "top": "Controls 0.18m circular footprint.",
+    "side": "Must match front silhouette and 0.18m depth."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: розовое основание и плафон, серая стойка, тёплая лампа. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

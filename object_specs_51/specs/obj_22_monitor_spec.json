@@ -1,0 +1,59 @@
+{
+  "id": "obj_22_monitor",
+  "number": 22,
+  "displayNameRu": "Монитор/экран на столе",
+  "displayNameEn": "Monitor or Screen",
+  "category": "electronics",
+  "family": "desktopAccessory",
+  "template": "templateMonitor",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.52,
+    "height": 0.4,
+    "depth": 0.14
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 220,
+    "maxTris": 480
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": false
+  },
+  "allowedPrimitives": [
+    "panelRect",
+    "roundedBox",
+    "softCylinder"
+  ],
+  "requiredParts": [
+    "screenPanel",
+    "frame",
+    "stand"
+  ],
+  "requiredHooks": [
+    "desktop_attach_center",
+    "screen_tilt_pivot"
+  ],
+  "requiredMaterialSlots": [
+    "plasticMain",
+    "glass"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [
+    "screen_tilt_pivot"
+  ],
+  "blueprintSources": {
+    "front": "room_objects_51_images/22_monitor_front_view.svg",
+    "top": "room_objects_51_images/22_monitor_top_view.svg",
+    "side": "room_objects_51_images/22_monitor_side_view.svg"
+  },
+  "projectionRules": {
+    "front": "Controls screen frame, glass panel, stand and foot.",
+    "top": "Controls thin panel footprint.",
+    "side": "Controls panel thickness and stand depth."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: тёмный корпус, светлый экран, короткая ножка и светлая подставка. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

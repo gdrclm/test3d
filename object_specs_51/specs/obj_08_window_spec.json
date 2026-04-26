@@ -1,0 +1,50 @@
+{
+  "id": "obj_08_window",
+  "number": 8,
+  "displayNameRu": "Окно",
+  "displayNameEn": "Window",
+  "category": "wallObject",
+  "family": "architecturalFlat",
+  "template": "templateWindowFlat",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 1.55,
+    "height": 1.1,
+    "depth": 0.08
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 320,
+    "maxTris": 620
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": false
+  },
+  "allowedPrimitives": [
+    "frameRect",
+    "panelRect",
+    "roundedBox"
+  ],
+  "requiredParts": [
+    "outerFrame",
+    "glassPaneLeft",
+    "glassPaneRight",
+    "centerMullion",
+    "sill"
+  ],
+  "requiredHooks": [
+    "wall_mount_center",
+    "curtain_rail_left",
+    "curtain_rail_right"
+  ],
+  "requiredMaterialSlots": [
+    "paintedFrame",
+    "glass"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [],
+  "notes": "Окно 08_window: ширина 2.20 м, толщина 0.08 м. Высота 0.62 м выведена из пропорции side-view того же ортографического чертежа. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

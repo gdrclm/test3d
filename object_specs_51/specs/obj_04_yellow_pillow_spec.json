@@ -1,0 +1,46 @@
+{
+  "id": "obj_04_yellow_pillow",
+  "number": 4,
+  "displayNameRu": "Жёлтая подушка",
+  "displayNameEn": "Yellow Pillow",
+  "category": "textile",
+  "family": "softProp",
+  "template": "templatePillow",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.52,
+    "height": 0.12,
+    "depth": 0.34
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 320,
+    "maxTris": 560
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": false
+  },
+  "allowedPrimitives": [
+    "softBox",
+    "blob"
+  ],
+  "requiredParts": [
+    "pillowMass",
+    "centerIndent",
+    "edgeSeamHints"
+  ],
+  "requiredHooks": [
+    "bed_pillow_slot"
+  ],
+  "requiredMaterialSlots": [
+    "fabricMain"
+  ],
+  "deformationProfile": "soft",
+  "animationPotential": [
+    "compression_response"
+  ],
+  "notes": "Геометрическая семья идентична obj_03_white_pillow, но материал и цвет соответствуют чертежам 04_yellow_pillow. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

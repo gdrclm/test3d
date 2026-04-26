@@ -1,0 +1,7 @@
+{
+  "id": "obj_47_purple_rug_cube",
+  "sourceSpec": "object_specs_51/specs/obj_47_purple_rug_cube_spec.json",
+  "projectionPriority": ["front", "top", "side"],
+  "modelingNotes": "Small rounded purple cube rebuilt from SVG dimensions and palette; top view accent is preserved as a white dot.",
+  "parts": ["rounded_purple_block", "white_top_dot"]
+}

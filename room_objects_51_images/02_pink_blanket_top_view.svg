@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<defs>
+  <linearGradient id="gPink" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ffd4e4"/><stop offset="100%" stop-color="#e56fa0"/>
+  </linearGradient>
+  <linearGradient id="gWood" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f5d4bd"/><stop offset="100%" stop-color="#d6a47a"/>
+  </linearGradient>
+  <linearGradient id="gBlue" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#aee3ff"/><stop offset="100%" stop-color="#78c6ea"/>
+  </linearGradient>
+  <linearGradient id="gMint" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#86d7c0"/><stop offset="100%" stop-color="#63b79e"/>
+  </linearGradient>
+  <linearGradient id="gLav" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#c9b5ff"/><stop offset="100%" stop-color="#aa92ef"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="900" height="520" fill="#fff8fb"/><g><line x1="40" y1="40" x2="40" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="80" y1="40" x2="80" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="120" y1="40" x2="120" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="160" y1="40" x2="160" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="200" y1="40" x2="200" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="240" y1="40" x2="240" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="280" y1="40" x2="280" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="320" y1="40" x2="320" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="360" y1="40" x2="360" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="400" y1="40" x2="400" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="440" y1="40" x2="440" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="480" y1="40" x2="480" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="520" y1="40" x2="520" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="560" y1="40" x2="560" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="600" y1="40" x2="600" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="640" y1="40" x2="640" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="680" y1="40" x2="680" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="720" y1="40" x2="720" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="760" y1="40" x2="760" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="800" y1="40" x2="800" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="840" y1="40" x2="840" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="880" y1="40" x2="880" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="40" x2="860" y2="40" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="80" x2="860" y2="80" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="120" x2="860" y2="120" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="160" x2="860" y2="160" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="200" x2="860" y2="200" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="240" x2="860" y2="240" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="280" x2="860" y2="280" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="320" x2="860" y2="320" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="360" x2="860" y2="360" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="400" x2="860" y2="400" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="440" x2="860" y2="440" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/><line x1="40" y1="480" x2="860" y2="480" stroke="#f0d9e4" stroke-width="1" opacity="0.55"/></g><text x="450.0" y="34" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#5c4352" text-anchor="middle">Розовое одеяло — вид сверху / TOP</text>
+<g>
+  <rect x="146" y="126" width="608" height="268" rx="34" fill="url(#gPink)" stroke="#2f2530" stroke-width="4"/>
+  <path d="M 160 150 Q 192 176 224 150 T 288 150 T 352 150 T 416 150 T 480 150 T 544 150 T 608 150 T 672 150 T 736 150" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.22"/>
+  <path d="M 178 176 C 230 162, 290 166, 346 184 C 408 204, 470 162, 536 178 C 610 196, 664 188, 722 174" fill="none" stroke="#ffffff" stroke-width="5" opacity="0.36"/>
+  <path d="M 182 228 C 248 212, 328 238, 410 226 C 514 210, 612 232, 716 220" fill="none" stroke="#e56fa0" stroke-width="3" opacity="0.35"/>
+  <path d="M 178 286 C 236 270, 324 298, 418 284 C 510 270, 616 298, 720 280" fill="none" stroke="#e56fa0" stroke-width="3" opacity="0.34"/>
+  <path d="M 174 338 C 232 320, 304 332, 366 350 C 434 370, 500 326, 572 340 C 634 352, 682 350, 728 334" fill="none" stroke="#ffffff" stroke-width="5" opacity="0.28"/>
+  <path d="M 154 144 Q 190 122 228 136 Q 194 170 154 144" fill="#ffffff" opacity="0.15"/>
+  <path d="M 752 372 Q 720 394 682 384 Q 720 350 752 372" fill="#ffffff" opacity="0.15"/>
+  <rect x="160" y="140" width="580" height="240" rx="26" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.30"/>
+</g>
+<line x1="146" y1="438" x2="754" y2="438" stroke="#b98aa0" stroke-width="2"/><line x1="146" y1="430" x2="146" y2="446" stroke="#b98aa0" stroke-width="2"/><line x1="754" y1="430" x2="754" y2="446" stroke="#b98aa0" stroke-width="2"/><text x="450.0" y="426" font-family="Arial, sans-serif" font-size="18" fill="#5c4352" text-anchor="middle">ширина по кровати 1.80 м</text><line x1="106" y1="126" x2="106" y2="394" stroke="#b98aa0" stroke-width="2"/><line x1="98" y1="126" x2="114" y2="126" stroke="#b98aa0" stroke-width="2"/><line x1="98" y1="394" x2="114" y2="394" stroke="#b98aa0" stroke-width="2"/><text x="78" y="260.0" transform="rotate(-90 78 260.0)" font-family="Arial, sans-serif" font-size="18" fill="#5c4352" text-anchor="middle">длина укрытия 0.78 м</text></svg>

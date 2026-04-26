@@ -1,0 +1,7 @@
+{
+  "id": "obj_17_shelf_plush",
+  "sourceSpec": "object_specs_51/specs/obj_17_shelf_plush_spec.json",
+  "projectionPriority": ["front", "side", "top"],
+  "modelingNotes": "Shelf plush rebuilt from ellipsoid parts so the front silhouette keeps head, ears, body, muzzle and paws instead of becoming a blob.",
+  "parts": ["rounded_plush_body", "round_plush_head", "small_round_ear", "tiny_front_eye", "front_muzzle_patch", "small_lower_paw"]
+}

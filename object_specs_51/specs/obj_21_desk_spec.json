@@ -1,0 +1,60 @@
+{
+  "id": "obj_21_desk",
+  "number": 21,
+  "displayNameRu": "Письменный стол",
+  "displayNameEn": "Desk",
+  "category": "furniture",
+  "family": "workSurface",
+  "template": "templateDesk",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 1.25,
+    "height": 0.74,
+    "depth": 0.62
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 900,
+    "maxTris": 1500
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": false
+  },
+  "allowedPrimitives": [
+    "roundedBox",
+    "panelRect",
+    "cylinder",
+    "softCylinder"
+  ],
+  "requiredParts": [
+    "tableTop",
+    "supportSystem",
+    "legSetOrSidePanels"
+  ],
+  "requiredHooks": [
+    "desktop_monitor_slot",
+    "desktop_keyboard_slot",
+    "desktop_book_slot",
+    "desktop_lamp_slot"
+  ],
+  "requiredMaterialSlots": [
+    "woodMain",
+    "woodAccent"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [],
+  "blueprintSources": {
+    "front": "room_objects_51_images/21_desk_front_view.svg",
+    "top": "room_objects_51_images/21_desk_top_view.svg",
+    "side": "room_objects_51_images/21_desk_side_view.svg"
+  },
+  "projectionRules": {
+    "top": "Controls 1.60m x 0.60m desktop footprint.",
+    "front": "Controls 0.75m height, desktop thickness and two front legs.",
+    "side": "Controls tabletop depth and leg depth."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: деревянная столешница, передняя планка и две видимые ножки в палитре чертежа. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

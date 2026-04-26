@@ -1,0 +1,461 @@
+[
+  {
+    "number": 1,
+    "id": "obj_01_bed",
+    "nameRu": "Кровать",
+    "nameEn": "Bed",
+    "template": "templateBed",
+    "category": "furniture",
+    "file": "specs/obj_01_bed_spec.json"
+  },
+  {
+    "number": 2,
+    "id": "obj_02_pink_blanket",
+    "nameRu": "Розовое одеяло",
+    "nameEn": "Pink Blanket",
+    "template": "templateSoftSurface",
+    "category": "textile",
+    "file": "specs/obj_02_pink_blanket_spec.json"
+  },
+  {
+    "number": 3,
+    "id": "obj_03_white_pillow",
+    "nameRu": "Белая подушка",
+    "nameEn": "White Pillow",
+    "template": "templatePillow",
+    "category": "textile",
+    "file": "specs/obj_03_white_pillow_spec.json"
+  },
+  {
+    "number": 4,
+    "id": "obj_04_yellow_pillow",
+    "nameRu": "Жёлтая подушка",
+    "nameEn": "Yellow Pillow",
+    "template": "templatePillow",
+    "category": "textile",
+    "file": "specs/obj_04_yellow_pillow_spec.json"
+  },
+  {
+    "number": 5,
+    "id": "obj_05_bed_toy",
+    "nameRu": "Игрушка на кровати",
+    "nameEn": "Toy on Bed",
+    "template": "templateSmallPlush",
+    "category": "toy",
+    "file": "specs/obj_05_bed_toy_spec.json"
+  },
+  {
+    "number": 6,
+    "id": "obj_06_nightstand",
+    "nameRu": "Прикроватная тумбочка",
+    "nameEn": "Nightstand",
+    "template": "templateCabinetSmall",
+    "category": "furniture",
+    "file": "specs/obj_06_nightstand_spec.json"
+  },
+  {
+    "number": 7,
+    "id": "obj_07_bedside_lamp",
+    "nameRu": "Прикроватная лампа",
+    "nameEn": "Bedside Lamp",
+    "template": "templateLamp",
+    "category": "lighting",
+    "file": "specs/obj_07_bedside_lamp_spec.json"
+  },
+  {
+    "number": 8,
+    "id": "obj_08_window",
+    "nameRu": "Окно",
+    "nameEn": "Window",
+    "template": "templateWindowFlat",
+    "category": "wallObject",
+    "file": "specs/obj_08_window_spec.json"
+  },
+  {
+    "number": 9,
+    "id": "obj_09_left_curtain",
+    "nameRu": "Левая штора",
+    "nameEn": "Left Curtain",
+    "template": "templateCurtain",
+    "category": "textile",
+    "file": "specs/obj_09_left_curtain_spec.json"
+  },
+  {
+    "number": 10,
+    "id": "obj_10_right_curtain",
+    "nameRu": "Правая штора",
+    "nameEn": "Right Curtain",
+    "template": "templateCurtain",
+    "category": "textile",
+    "file": "specs/obj_10_right_curtain_spec.json"
+  },
+  {
+    "number": 11,
+    "id": "obj_11_door",
+    "nameRu": "Дверь",
+    "nameEn": "Door",
+    "template": "templateDoorFlat",
+    "category": "architectural",
+    "file": "specs/obj_11_door_spec.json"
+  },
+  {
+    "number": 12,
+    "id": "obj_12_ceiling_lamp",
+    "nameRu": "Потолочная лампа",
+    "nameEn": "Ceiling Lamp",
+    "template": "templateCeilingLamp",
+    "category": "lighting",
+    "file": "specs/obj_12_ceiling_lamp_spec.json"
+  },
+  {
+    "number": 13,
+    "id": "obj_13_rug",
+    "nameRu": "Ковёр",
+    "nameEn": "Rug",
+    "template": "templateRugOval",
+    "category": "textile",
+    "file": "specs/obj_13_rug_spec.json"
+  },
+  {
+    "number": 14,
+    "id": "obj_14_wardrobe",
+    "nameRu": "Шкаф",
+    "nameEn": "Wardrobe",
+    "template": "templateWardrobe",
+    "category": "furniture",
+    "file": "specs/obj_14_wardrobe_spec.json"
+  },
+  {
+    "number": 15,
+    "id": "obj_15_bookshelf",
+    "nameRu": "Книжный шкаф",
+    "nameEn": "Bookshelf",
+    "template": "templateBookshelf",
+    "category": "furniture",
+    "file": "specs/obj_15_bookshelf_spec.json"
+  },
+  {
+    "number": 16,
+    "id": "obj_16_books_set",
+    "nameRu": "Книги на полках",
+    "nameEn": "Books Set",
+    "template": "templateBookCluster",
+    "category": "decor",
+    "file": "specs/obj_16_books_set_spec.json"
+  },
+  {
+    "number": 17,
+    "id": "obj_17_shelf_plush",
+    "nameRu": "Плюшевая игрушка на полке",
+    "nameEn": "Shelf Plush Toy",
+    "template": "templateSmallPlush",
+    "category": "toy",
+    "file": "specs/obj_17_shelf_plush_spec.json"
+  },
+  {
+    "number": 18,
+    "id": "obj_18_shelf_vase_bottle",
+    "nameRu": "Ваза/бутылка на полке",
+    "nameEn": "Shelf Vase or Bottle",
+    "template": "templateLatheProp",
+    "category": "decor",
+    "file": "specs/obj_18_shelf_vase_bottle_spec.json"
+  },
+  {
+    "number": 19,
+    "id": "obj_19_shelf_box",
+    "nameRu": "Коробка на полке",
+    "nameEn": "Shelf Box",
+    "template": "templateBoxProp",
+    "category": "decor",
+    "file": "specs/obj_19_shelf_box_spec.json"
+  },
+  {
+    "number": 20,
+    "id": "obj_20_shelf_decor_house_pyramid",
+    "nameRu": "Декоративный домик/пирамидка на полке",
+    "nameEn": "Shelf Decorative House or Pyramid",
+    "template": "templateSmallDecor",
+    "category": "decor",
+    "file": "specs/obj_20_shelf_decor_house_pyramid_spec.json"
+  },
+  {
+    "number": 21,
+    "id": "obj_21_desk",
+    "nameRu": "Письменный стол",
+    "nameEn": "Desk",
+    "template": "templateDesk",
+    "category": "furniture",
+    "file": "specs/obj_21_desk_spec.json"
+  },
+  {
+    "number": 22,
+    "id": "obj_22_monitor",
+    "nameRu": "Монитор/экран на столе",
+    "nameEn": "Monitor or Screen",
+    "template": "templateMonitor",
+    "category": "electronics",
+    "file": "specs/obj_22_monitor_spec.json"
+  },
+  {
+    "number": 23,
+    "id": "obj_23_keyboard",
+    "nameRu": "Клавиатура",
+    "nameEn": "Keyboard",
+    "template": "templateKeyboard",
+    "category": "electronics",
+    "file": "specs/obj_23_keyboard_spec.json"
+  },
+  {
+    "number": 24,
+    "id": "obj_24_tablet_or_book",
+    "nameRu": "Планшет/книга на столе",
+    "nameEn": "Tablet or Book on Desk",
+    "template": "templateFlatPortable",
+    "category": "prop",
+    "file": "specs/obj_24_tablet_or_book_spec.json"
+  },
+  {
+    "number": 25,
+    "id": "obj_25_notebook_or_sheet",
+    "nameRu": "Блокнот/листок на столе",
+    "nameEn": "Notebook or Sheet on Desk",
+    "template": "templatePaperProp",
+    "category": "paperProp",
+    "file": "specs/obj_25_notebook_or_sheet_spec.json"
+  },
+  {
+    "number": 26,
+    "id": "obj_26_desk_lamp",
+    "nameRu": "Настольный светильник",
+    "nameEn": "Desk Lamp",
+    "template": "templateLamp",
+    "category": "lighting",
+    "file": "specs/obj_26_desk_lamp_spec.json"
+  },
+  {
+    "number": 27,
+    "id": "obj_27_office_chair",
+    "nameRu": "Стул на колёсиках",
+    "nameEn": "Chair on Wheels",
+    "template": "templateOfficeChair",
+    "category": "furniture",
+    "file": "specs/obj_27_office_chair_spec.json"
+  },
+  {
+    "number": 28,
+    "id": "obj_28_toy_box",
+    "nameRu": "Ящик для игрушек",
+    "nameEn": "Toy Box",
+    "template": "templateToyBox",
+    "category": "furniture",
+    "file": "specs/obj_28_toy_box_spec.json"
+  },
+  {
+    "number": 29,
+    "id": "obj_29_doll_house",
+    "nameRu": "Кукольный домик",
+    "nameEn": "Doll House",
+    "template": "templateToyHouse",
+    "category": "toy",
+    "file": "specs/obj_29_doll_house_spec.json"
+  },
+  {
+    "number": 30,
+    "id": "obj_30_round_play_table",
+    "nameRu": "Круглый игровой столик",
+    "nameEn": "Round Play Table",
+    "template": "templateRoundTable",
+    "category": "furniture",
+    "file": "specs/obj_30_round_play_table_spec.json"
+  },
+  {
+    "number": 31,
+    "id": "obj_31_toy_teapot_or_cup",
+    "nameRu": "Игрушечный чайник/чашка",
+    "nameEn": "Toy Teapot or Cup",
+    "template": "templateTeaProp",
+    "category": "toy",
+    "file": "specs/obj_31_toy_teapot_or_cup_spec.json"
+  },
+  {
+    "number": 32,
+    "id": "obj_32_table_toy_cube_or_item",
+    "nameRu": "Игрушечный кубик/предмет на столике",
+    "nameEn": "Toy Cube or Item on Table",
+    "template": "templateSmallProp",
+    "category": "toy",
+    "file": "specs/obj_32_table_toy_cube_or_item_spec.json"
+  },
+  {
+    "number": 33,
+    "id": "obj_33_small_table_toy",
+    "nameRu": "Маленькая игрушка на столике",
+    "nameEn": "Small Toy on Table",
+    "template": "templateSmallProp",
+    "category": "toy",
+    "file": "specs/obj_33_small_table_toy_spec.json"
+  },
+  {
+    "number": 34,
+    "id": "obj_34_left_pouf",
+    "nameRu": "Левый пуфик",
+    "nameEn": "Left Pouf",
+    "template": "templatePouf",
+    "category": "furniture",
+    "file": "specs/obj_34_left_pouf_spec.json"
+  },
+  {
+    "number": 35,
+    "id": "obj_35_right_pouf",
+    "nameRu": "Правый пуфик",
+    "nameEn": "Right Pouf",
+    "template": "templatePouf",
+    "category": "furniture",
+    "file": "specs/obj_35_right_pouf_spec.json"
+  },
+  {
+    "number": 36,
+    "id": "obj_36_bean_bag",
+    "nameRu": "Кресло-мешок",
+    "nameEn": "Bean Bag",
+    "template": "templateBeanBag",
+    "category": "furniture",
+    "file": "specs/obj_36_bean_bag_spec.json"
+  },
+  {
+    "number": 37,
+    "id": "obj_37_easel",
+    "nameRu": "Мольберт",
+    "nameEn": "Easel",
+    "template": "templateEasel",
+    "category": "artFurniture",
+    "file": "specs/obj_37_easel_spec.json"
+  },
+  {
+    "number": 38,
+    "id": "obj_38_canvas",
+    "nameRu": "Холст на мольберте",
+    "nameEn": "Canvas on Easel",
+    "template": "templateCanvas",
+    "category": "artObject",
+    "file": "specs/obj_38_canvas_spec.json"
+  },
+  {
+    "number": 39,
+    "id": "obj_39_star_mobile",
+    "nameRu": "Мобиль со звёздами",
+    "nameEn": "Star Mobile",
+    "template": "templateMobile",
+    "category": "decor",
+    "file": "specs/obj_39_star_mobile_spec.json"
+  },
+  {
+    "number": 40,
+    "id": "obj_40_wall_clock",
+    "nameRu": "Настенные часы",
+    "nameEn": "Wall Clock",
+    "template": "templateWallClock",
+    "category": "wallObject",
+    "file": "specs/obj_40_wall_clock_spec.json"
+  },
+  {
+    "number": 41,
+    "id": "obj_41_poster_01",
+    "nameRu": "Первый постер",
+    "nameEn": "Poster 01",
+    "template": "templatePoster",
+    "category": "wallObject",
+    "file": "specs/obj_41_poster_01_spec.json"
+  },
+  {
+    "number": 42,
+    "id": "obj_42_poster_02",
+    "nameRu": "Второй постер",
+    "nameEn": "Poster 02",
+    "template": "templatePoster",
+    "category": "wallObject",
+    "file": "specs/obj_42_poster_02_spec.json"
+  },
+  {
+    "number": 43,
+    "id": "obj_43_blue_rug_toy",
+    "nameRu": "Синяя игрушка на ковре",
+    "nameEn": "Blue Toy on Rug",
+    "template": "templateSmallProp",
+    "category": "toy",
+    "file": "specs/obj_43_blue_rug_toy_spec.json"
+  },
+  {
+    "number": 44,
+    "id": "obj_44_pink_rug_toy",
+    "nameRu": "Розовая игрушка на ковре",
+    "nameEn": "Pink Toy on Rug",
+    "template": "templateSmallProp",
+    "category": "toy",
+    "file": "specs/obj_44_pink_rug_toy_spec.json"
+  },
+  {
+    "number": 45,
+    "id": "obj_45_yellow_rug_toy",
+    "nameRu": "Жёлтая игрушка на ковре",
+    "nameEn": "Yellow Toy on Rug",
+    "template": "templateSmallProp",
+    "category": "toy",
+    "file": "specs/obj_45_yellow_rug_toy_spec.json"
+  },
+  {
+    "number": 46,
+    "id": "obj_46_green_rug_cube",
+    "nameRu": "Зелёный кубик на ковре",
+    "nameEn": "Green Cube on Rug",
+    "template": "templateBlock",
+    "category": "toy",
+    "file": "specs/obj_46_green_rug_cube_spec.json"
+  },
+  {
+    "number": 47,
+    "id": "obj_47_purple_rug_cube",
+    "nameRu": "Фиолетовый кубик на ковре",
+    "nameEn": "Purple Cube on Rug",
+    "template": "templateBlock",
+    "category": "toy",
+    "file": "specs/obj_47_purple_rug_cube_spec.json"
+  },
+  {
+    "number": 48,
+    "id": "obj_48_small_pyramid",
+    "nameRu": "Маленькая пирамидка на ковре",
+    "nameEn": "Small Pyramid on Rug",
+    "template": "templatePyramidToy",
+    "category": "toy",
+    "file": "specs/obj_48_small_pyramid_spec.json"
+  },
+  {
+    "number": 49,
+    "id": "obj_49_slippers",
+    "nameRu": "Домашние тапочки",
+    "nameEn": "Slippers",
+    "template": "templateSlippersPair",
+    "category": "wearableProp",
+    "file": "specs/obj_49_slippers_spec.json"
+  },
+  {
+    "number": 50,
+    "id": "obj_50_plant_in_pot",
+    "nameRu": "Растение в горшке",
+    "nameEn": "Plant in Pot",
+    "template": "templatePottedPlant",
+    "category": "decor",
+    "file": "specs/obj_50_plant_in_pot_spec.json"
+  },
+  {
+    "number": 51,
+    "id": "obj_51_laundry_basket",
+    "nameRu": "Корзина для белья",
+    "nameEn": "Laundry Basket",
+    "template": "templateLaundryBasket",
+    "category": "containerProp",
+    "file": "specs/obj_51_laundry_basket_spec.json"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "id": "obj_26_desk_lamp",
+  "sourceSpec": "object_specs_51/specs/obj_26_desk_lamp_spec.json",
+  "projectionPriority": ["front", "side", "top"],
+  "modelingNotes": "Desk lamp rebuilt with pink circular base, grey stem, pink curved shade and warm bulb.",
+  "parts": ["round_pink_base", "thin_grey_stem", "pink_curved_shade", "warm_small_bulb"]
+}

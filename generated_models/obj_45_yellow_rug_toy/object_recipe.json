@@ -1,0 +1,7 @@
+{
+  "id": "obj_45_yellow_rug_toy",
+  "sourceSpec": "object_specs_51/specs/obj_45_yellow_rug_toy_spec.json",
+  "projectionPriority": ["top", "front", "side"],
+  "modelingNotes": "Small round rug toy rebuilt from SVG diameter and palette with a cream-yellow body and pink accent.",
+  "parts": ["round_yellow_rug_toy_body", "pink_front_accent"]
+}

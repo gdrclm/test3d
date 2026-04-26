@@ -1,0 +1,48 @@
+{
+  "id": "obj_02_pink_blanket",
+  "number": 2,
+  "displayNameRu": "Розовое одеяло",
+  "displayNameEn": "Pink Blanket",
+  "category": "textile",
+  "family": "bedTextile",
+  "template": "templateSoftSurface",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 1.15,
+    "height": 0.1,
+    "depth": 1.35
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 700,
+    "maxTris": 1200
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": false
+  },
+  "allowedPrimitives": [
+    "softBox",
+    "panelRect",
+    "blob"
+  ],
+  "requiredParts": [
+    "blanketMass",
+    "frontFold",
+    "surfaceWaveSet"
+  ],
+  "requiredHooks": [
+    "bed_attach_zone"
+  ],
+  "requiredMaterialSlots": [
+    "fabricMain",
+    "fabricAccent"
+  ],
+  "deformationProfile": "soft",
+  "animationPotential": [
+    "soft_secondary_motion"
+  ],
+  "notes": "Ортографические SVG 02_pink_blanket задают правильную ориентацию: по фронту одеяло имеет ширину 0.78 м, по виду сбоку длину 1.80 м и общую высоту слоя 0.12 м. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

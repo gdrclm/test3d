@@ -1,0 +1,48 @@
+{
+  "id": "obj_09_left_curtain",
+  "number": 9,
+  "displayNameRu": "Левая штора",
+  "displayNameEn": "Left Curtain",
+  "category": "textile",
+  "family": "wallTextile",
+  "template": "templateCurtain",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.42,
+    "height": 1.35,
+    "depth": 0.08
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 420,
+    "maxTris": 760
+  },
+  "symmetry": {
+    "x": false,
+    "y": false,
+    "z": false
+  },
+  "allowedPrimitives": [
+    "softBox",
+    "panelRect",
+    "blob"
+  ],
+  "requiredParts": [
+    "curtainRodStub",
+    "clothBody",
+    "foldProfileSet"
+  ],
+  "requiredHooks": [
+    "curtain_mount_top_left"
+  ],
+  "requiredMaterialSlots": [
+    "fabricMain",
+    "rodAccent"
+  ],
+  "deformationProfile": "semiSoft",
+  "animationPotential": [
+    "curtain_wave_root"
+  ],
+  "notes": "Новые SVG 09_left_curtain задают левый разворот складок: ширина 0.28 м, высота 1.10 м, глубина 0.09 м. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

@@ -1,0 +1,1 @@
+{"id":"obj_40_wall_clock","sourceSpec":"object_specs_51/specs/obj_40_wall_clock_spec.json","projectionPriority":["front","top","side"],"modelingNotes":"Wall clock rebuilt as thin round face with inner ring, center pin and two grey hands.","parts":["round_clock_face","pale_inner_clock_ring","vertical_clock_hand","horizontal_clock_hand","clock_center_pin"]}

@@ -1,0 +1,7 @@
+{
+  "id": "obj_41_poster_01",
+  "sourceSpec": "object_specs_51/specs/obj_41_poster_01_spec.json",
+  "projectionPriority": ["front", "side", "top"],
+  "modelingNotes": "Thin wall poster rebuilt from corrected SVG views. Front controls rounded poster panel and pink graphic, side controls 0.02 m thickness, colors follow the blueprint palette.",
+  "parts": ["rounded_poster_panel", "pink_graphic_zone", "cream_sun_disc", "white_svg_smile_arc", "lavender_lower_graphic_arc"]
+}

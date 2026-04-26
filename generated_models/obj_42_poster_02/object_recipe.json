@@ -1,0 +1,7 @@
+{
+  "id": "obj_42_poster_02",
+  "sourceSpec": "object_specs_51/specs/obj_42_poster_02_spec.json",
+  "projectionPriority": ["front", "side", "top"],
+  "modelingNotes": "Thin wall poster rebuilt from corrected SVG views. Front controls rounded poster panel and blue mountain graphic, side controls 0.02 m thickness, colors follow the blueprint palette.",
+  "parts": ["rounded_poster_panel", "blue_graphic_zone", "white_svg_mountain_line", "small_cream_sun_disc"]
+}

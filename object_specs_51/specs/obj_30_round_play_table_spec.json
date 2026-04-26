@@ -1,0 +1,59 @@
+{
+  "id": "obj_30_round_play_table",
+  "number": 30,
+  "displayNameRu": "Круглый игровой столик",
+  "displayNameEn": "Round Play Table",
+  "category": "furniture",
+  "family": "playSurface",
+  "template": "templateRoundTable",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.78,
+    "height": 0.52,
+    "depth": 0.78
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 500,
+    "maxTris": 900
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": true
+  },
+  "allowedPrimitives": [
+    "cylinder",
+    "roundedBox",
+    "softCylinder"
+  ],
+  "requiredParts": [
+    "tableTop",
+    "support",
+    "base"
+  ],
+  "requiredHooks": [
+    "top_surface_center",
+    "table_accessory_slot_a",
+    "table_accessory_slot_b",
+    "table_accessory_slot_c"
+  ],
+  "requiredMaterialSlots": [
+    "woodMain",
+    "woodAccent"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [],
+  "blueprintSources": {
+    "front": "room_objects_51_images/30_round_play_table_front_view.svg",
+    "top": "room_objects_51_images/30_round_play_table_top_view.svg",
+    "side": "room_objects_51_images/30_round_play_table_side_view.svg"
+  },
+  "projectionRules": {
+    "top": "Controls 0.84m circular tabletop, inner circle and three colored dots.",
+    "front": "Controls 0.52m height, pedestal and foot.",
+    "side": "Must match front silhouette with 0.84m depth."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: круглый столик с деревянной столешницей, центральной ножкой, основанием и цветными точками сверху. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

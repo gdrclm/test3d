@@ -1,0 +1,65 @@
+{
+  "id": "obj_14_wardrobe",
+  "number": 14,
+  "displayNameRu": "Шкаф",
+  "displayNameEn": "Wardrobe",
+  "category": "furniture",
+  "family": "cabinetFurniture",
+  "template": "templateWardrobe",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 1.2,
+    "height": 2.05,
+    "depth": 0.6
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 1400,
+    "maxTris": 2400
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": false
+  },
+  "allowedPrimitives": [
+    "roundedBox",
+    "panelRect",
+    "softCylinder"
+  ],
+  "requiredParts": [
+    "body",
+    "top",
+    "doorLeft",
+    "doorRight",
+    "handleLeft",
+    "handleRight"
+  ],
+  "requiredHooks": [
+    "door_left_hinge",
+    "door_right_hinge",
+    "top_surface_center"
+  ],
+  "requiredMaterialSlots": [
+    "woodMain",
+    "woodAccent",
+    "metalAccent"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [
+    "door_left_open",
+    "door_right_open"
+  ],
+  "blueprintSources": {
+    "front": "room_objects_51_images/14_wardrobe_front_view.svg",
+    "top": "room_objects_51_images/14_wardrobe_top_view.svg",
+    "side": "room_objects_51_images/14_wardrobe_side_view.svg"
+  },
+  "projectionRules": {
+    "front": "Controls two-door face, central seam, top cap and plinth.",
+    "top": "Controls 1.6m by 0.62m cabinet footprint.",
+    "side": "Controls cabinet depth and vertical mass."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: округлый корпус, две фронтальные створки, центральный шов, верхняя крышка и нижний цоколь. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

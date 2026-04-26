@@ -1,0 +1,21 @@
+{
+  "id": "obj_03_white_pillow",
+  "template": "templatePillow",
+  "dimensions": { "width": 0.62, "height": 0.12, "depth": 0.38 },
+  "parts": [
+    { "id": "pillow_mass", "primitive": "softBox", "materialSlot": "fabricMain" },
+    { "id": "center_indent", "primitive": "blob", "materialSlot": "fabricMain" }
+  ],
+  "materialSlots": { "fabricMain": "whole pillow body" },
+  "sockets": { "bed_pillow_slot": { "position": [0, 0.02, 0] } },
+  "exportMeta": {
+    "units": "meters",
+    "projectionDriven": true,
+    "primaryProjection": "top",
+    "sources": {
+      "frontSvg": "room_objects_51_images/03_white_pillow_front_view.svg",
+      "topSvg": "room_objects_51_images/03_white_pillow_top_view.svg",
+      "sideSvg": "room_objects_51_images/03_white_pillow_side_view.svg"
+    }
+  }
+}

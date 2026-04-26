@@ -1,0 +1,7 @@
+{
+  "id": "obj_30_round_play_table",
+  "sourceSpec": "object_specs_51/specs/obj_30_round_play_table_spec.json",
+  "projectionPriority": ["top", "front", "side"],
+  "modelingNotes": "Round play table rebuilt with circular top, inner circle, continuous pedestal touching both tabletop and lower base, plus three colored top dots.",
+  "parts": ["round_play_table_top", "top_inner_circle", "single_center_pedestal", "oval_round_base", "colored_top_dot"]
+}

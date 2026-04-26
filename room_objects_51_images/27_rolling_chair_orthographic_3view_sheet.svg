@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980">
+
+<defs>
+  <linearGradient id="gPink" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ffd4e4"/><stop offset="100%" stop-color="#e56fa0"/>
+  </linearGradient>
+</defs>
+
+<rect x="0" y="0" width="1400" height="980" fill="#fff8fb"/>
+<text x="700" y="42" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#5c4352" text-anchor="middle">Стул на колёсиках — 3 ортографических SVG-вида</text>
+<text x="700" y="72" font-family="Arial, sans-serif" font-size="17" fill="#5c4352" text-anchor="middle">v4: точечная правка логики вида сверху.</text>
+<g transform="translate(160,120)"><text x="320" y="-18" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#5c4352" text-anchor="middle">TOP</text>
+<g>
+  <!-- base first, partially hidden by seat -->
+  <circle cx="450" cy="336" r="12" fill="#d7dbe6" stroke="#2f2530" stroke-width="2"/>
+  <line x1="450" y1="336" x2="398" y2="384" stroke="#677088" stroke-width="6" stroke-linecap="round"/>
+  <line x1="450" y1="336" x2="502" y2="384" stroke="#677088" stroke-width="6" stroke-linecap="round"/>
+  <line x1="450" y1="336" x2="386" y2="330" stroke="#677088" stroke-width="6" stroke-linecap="round"/>
+  <line x1="450" y1="336" x2="514" y2="330" stroke="#677088" stroke-width="6" stroke-linecap="round"/>
+  <line x1="450" y1="336" x2="450" y2="402" stroke="#677088" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="398" cy="384" r="9" fill="#d7dbe6" stroke="#2f2530" stroke-width="2"/>
+  <circle cx="502" cy="384" r="9" fill="#d7dbe6" stroke="#2f2530" stroke-width="2"/>
+  <circle cx="386" cy="330" r="9" fill="#d7dbe6" stroke="#2f2530" stroke-width="2"/>
+  <circle cx="514" cy="330" r="9" fill="#d7dbe6" stroke="#2f2530" stroke-width="2"/>
+  <circle cx="450" cy="402" r="9" fill="#d7dbe6" stroke="#2f2530" stroke-width="2"/>
+
+  <!-- seat over base -->
+  <rect x="372" y="248" width="156" height="104" rx="26" fill="url(#gPink)" stroke="#2f2530" stroke-width="4"/>
+
+  <!-- backrest over top edge of seat -->
+  <rect x="356" y="136" width="188" height="128" rx="30" fill="url(#gPink)" stroke="#2f2530" stroke-width="4"/>
+</g>
+</g>
+<g transform="translate(160,550)"><text x="320" y="-18" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#5c4352" text-anchor="middle">SIDE</text>
+<g>
+  <line x1="100" y1="292" x2="800" y2="292" stroke="#b98aa0" stroke-width="3" stroke-dasharray="10 8"/>
+  <rect x="352" y="108" width="64" height="124" rx="18" fill="url(#gPink)" stroke="#2f2530" stroke-width="4"/>
+  <rect x="404" y="224" width="116" height="34" rx="12" fill="url(#gPink)" stroke="#2f2530" stroke-width="4"/>
+  <rect x="450" y="258" width="12" height="50" rx="5" fill="#d7dbe6" stroke="#2f2530" stroke-width="2"/>
+  <line x1="456" y1="308" x2="410" y2="334" stroke="#677088" stroke-width="6" stroke-linecap="round"/>
+  <line x1="456" y1="308" x2="504" y2="332" stroke="#677088" stroke-width="6" stroke-linecap="round"/>
+  <line x1="456" y1="308" x2="456" y2="344" stroke="#677088" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="410" cy="334" r="9" fill="#d7dbe6" stroke="#2f2530" stroke-width="2"/>
+  <circle cx="504" cy="332" r="9" fill="#d7dbe6" stroke="#2f2530" stroke-width="2"/>
+  <circle cx="456" cy="344" r="9" fill="#d7dbe6" stroke="#2f2530" stroke-width="2"/>
+</g>
+</g>
+<g transform="translate(880,550)"><text x="152" y="-18" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#5c4352" text-anchor="middle">FRONT</text>
+<g>
+  <line x1="64" y1="292" x2="496" y2="292" stroke="#b98aa0" stroke-width="3" stroke-dasharray="10 8"/>
+  <rect x="196" y="108" width="168" height="116" rx="22" fill="url(#gPink)" stroke="#2f2530" stroke-width="4"/>
+  <rect x="212" y="230" width="136" height="32" rx="12" fill="url(#gPink)" stroke="#2f2530" stroke-width="4"/>
+  <rect x="274" y="262" width="12" height="44" rx="5" fill="#d7dbe6" stroke="#2f2530" stroke-width="2"/>
+  <line x1="280" y1="306" x2="232" y2="330" stroke="#677088" stroke-width="6" stroke-linecap="round"/>
+  <line x1="280" y1="306" x2="328" y2="330" stroke="#677088" stroke-width="6" stroke-linecap="round"/>
+  <line x1="280" y1="306" x2="280" y2="340" stroke="#677088" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="232" cy="330" r="8" fill="#d7dbe6" stroke="#2f2530" stroke-width="2"/>
+  <circle cx="328" cy="330" r="8" fill="#d7dbe6" stroke="#2f2530" stroke-width="2"/>
+  <circle cx="280" cy="340" r="8" fill="#d7dbe6" stroke="#2f2530" stroke-width="2"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Scene Viewer</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.179.1/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.179.1/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <p class="eyebrow">Scene Toolkit</p>
+          <h1>Каталог предметов в браузерной сцене</h1>
+          <p class="lede">
+            Viewer работает поверх ваших `object_specs_51` и даёт быстрый способ
+            расставлять предметы в комнате без отдельной сборки проекта.
+          </p>
+        </div>
+
+        <section class="panel">
+          <label class="field-label" for="search-input">Поиск по объектам</label>
+          <input id="search-input" type="search" placeholder="Например: bookshelf, bed, книги" />
+          <div class="toolbar">
+            <button id="reset-camera-btn" type="button">Сбросить камеру</button>
+            <button id="save-layout-btn" type="button">Сохранить layout</button>
+            <button id="load-layout-btn" type="button">Загрузить layout</button>
+          </div>
+          <p id="status-line" class="status-line">Загрузка спецификаций...</p>
+        </section>
+
+        <section class="panel">
+          <div class="section-heading">
+            <h2>Библиотека</h2>
+            <span id="library-count" class="pill">0</span>
+          </div>
+          <div id="catalog-list" class="catalog-list"></div>
+        </section>
+
+        <section class="panel">
+          <div class="section-heading">
+            <h2>Выбранный объект</h2>
+            <span id="selection-pill" class="pill muted">Нет</span>
+          </div>
+          <div id="selection-meta" class="selection-meta">
+            Выберите предмет в сцене или добавьте новый из каталога.
+          </div>
+          <figure class="blueprint-figure">
+            <img id="selection-blueprint" alt="Чертёж выбранного объекта" hidden />
+            <figcaption id="selection-blueprint-caption" class="catalog-meta">
+              Чертёж появится после выбора объекта.
+            </figcaption>
+          </figure>
+          <div class="transform-grid">
+            <label>X <input id="pos-x" type="number" step="0.05" /></label>
+            <label>Y <input id="pos-y" type="number" step="0.05" /></label>
+            <label>Z <input id="pos-z" type="number" step="0.05" /></label>
+            <label>Поворот Y <input id="rot-y" type="number" step="5" /></label>
+            <label>Scale <input id="uniform-scale" type="number" step="0.1" min="0.2" /></label>
+          </div>
+          <div class="toolbar">
+            <button id="apply-transform-btn" type="button">Применить</button>
+            <button id="focus-selection-btn" type="button">Фокус</button>
+            <button id="duplicate-btn" type="button">Дублировать</button>
+            <button id="delete-btn" type="button" class="danger">Удалить</button>
+          </div>
+          <p class="hint">
+            Управление: `T` перемещение, `R` вращение, `S` масштаб. Двойной клик по
+            полу ставит выбранный объект в указанную точку.
+          </p>
+        </section>
+
+        <section class="panel">
+          <div class="section-heading">
+            <h2>Размещение</h2>
+            <span id="placed-count" class="pill accent">0</span>
+          </div>
+          <div id="placed-list" class="placed-list"></div>
+        </section>
+      </aside>
+
+      <main class="viewport-wrap">
+        <canvas id="viewport"></canvas>
+        <div class="scene-quickbar">
+          <button id="scene-reset-btn" type="button">Камера</button>
+          <button id="scene-save-btn" type="button">Сохранить</button>
+          <button id="scene-load-btn" type="button">Загрузить</button>
+          <button id="fps-toggle-btn" type="button" disabled>FPS</button>
+          <button id="view-front-btn" type="button">Front</button>
+          <button id="view-top-btn" type="button">Top</button>
+          <button id="view-side-btn" type="button">Side</button>
+        </div>
+        <div id="scene-loading" class="scene-loading" role="status" aria-live="polite">
+          <div class="scene-loading-copy">
+            <strong>Подготовка FPS</strong>
+            <span id="scene-loading-label">Загружаю сцену...</span>
+          </div>
+          <div class="scene-loading-track">
+            <div
+              id="scene-loading-bar"
+              class="scene-loading-bar"
+              role="progressbar"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              aria-valuenow="0"
+            ></div>
+          </div>
+        </div>
+        <div class="viewport-overlay">
+          <div class="overlay-card">
+            <strong>Комната</strong>
+            <span>6.0 x 4.5 x 2.8 м</span>
+          </div>
+          <div class="overlay-card">
+            <strong>Подсказка</strong>
+            <span>FPS: WASD, Space, мышь. Esc чтобы выйти</span>
+          </div>
+        </div>
+        <div id="mobile-fps-controls" class="mobile-fps-controls" aria-hidden="true">
+          <div class="mobile-stick mobile-stick-move" data-stick="move" aria-label="Движение">
+            <div class="mobile-stick-knob" id="move-stick-knob"></div>
+          </div>
+          <button id="mobile-jump-btn" class="mobile-jump-btn" type="button" aria-label="Прыжок">
+            Прыжок
+          </button>
+          <div class="mobile-stick mobile-stick-look" data-stick="look" aria-label="Камера">
+            <div class="mobile-stick-knob" id="look-stick-knob"></div>
+          </div>
+        </div>
+        <aside id="compare-panel" class="compare-panel" hidden>
+          <div class="compare-header">
+            <strong>Blueprint Compare</strong>
+            <span id="compare-title">Выберите объект</span>
+          </div>
+          <div id="compare-grid" class="compare-grid"></div>
+        </aside>
+      </main>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

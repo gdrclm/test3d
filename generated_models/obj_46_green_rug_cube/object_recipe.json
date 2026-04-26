@@ -1,0 +1,7 @@
+{
+  "id": "obj_46_green_rug_cube",
+  "sourceSpec": "object_specs_51/specs/obj_46_green_rug_cube_spec.json",
+  "projectionPriority": ["front", "top", "side"],
+  "modelingNotes": "Small rounded green cube rebuilt from SVG dimensions and palette; top view accent is preserved as a cream dot.",
+  "parts": ["rounded_green_block", "cream_top_dot"]
+}

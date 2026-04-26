@@ -1,0 +1,63 @@
+{
+  "id": "obj_39_star_mobile",
+  "number": 39,
+  "displayNameRu": "Мобиль со звёздами",
+  "displayNameEn": "Star Mobile",
+  "category": "decor",
+  "family": "hangingDecor",
+  "template": "templateMobile",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.42,
+    "height": 0.42,
+    "depth": 0.2
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 250,
+    "maxTris": 500
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": true
+  },
+  "allowedPrimitives": [
+    "softCylinder",
+    "panelRect",
+    "cone"
+  ],
+  "requiredParts": [
+    "topRig",
+    "hangerA",
+    "hangerB",
+    "starA",
+    "starB",
+    "starC"
+  ],
+  "requiredHooks": [
+    "ceiling_mount",
+    "mobile_swing_root"
+  ],
+  "requiredMaterialSlots": [
+    "metalAccent",
+    "plasticMain"
+  ],
+  "deformationProfile": "semiSoft",
+  "animationPotential": [
+    "mobile_swing_root",
+    "star_secondary_sway"
+  ],
+  "blueprintSources": {
+    "front": "room_objects_51_images/39_star_mobile_front_view.svg",
+    "top": "room_objects_51_images/39_star_mobile_top_view.svg",
+    "side": "room_objects_51_images/39_star_mobile_side_view.svg"
+  },
+  "projectionRules": {
+    "front": "Controls hanger, crossbar, cords and four visible stars.",
+    "top": "Controls radial mobile layout around center hub.",
+    "side": "Controls hanging depth and star offsets."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: серый мобиль с подвесами и разноцветными звёздами. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

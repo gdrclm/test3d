@@ -1,0 +1,7 @@
+{
+  "id": "obj_22_monitor",
+  "sourceSpec": "object_specs_51/specs/obj_22_monitor_spec.json",
+  "projectionPriority": ["front", "top", "side"],
+  "modelingNotes": "Monitor rebuilt with dark rounded frame, pale screen plane, short neck and base using the SVG grey-blue palette.",
+  "parts": ["dark_rounded_screen_frame", "pale_screen_plane", "small_center_stand", "rounded_monitor_foot"]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "obj_13_rug",
+  "number": 13,
+  "displayNameRu": "Ковёр",
+  "displayNameEn": "Rug",
+  "category": "textile",
+  "family": "floorTextile",
+  "template": "templateRugOval",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 2.4,
+    "height": 0.03,
+    "depth": 1.6
+  },
+  "detailLevel": "low",
+  "polyBudget": {
+    "targetTris": 180,
+    "maxTris": 320
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": true
+  },
+  "allowedPrimitives": [
+    "panelRect",
+    "blob"
+  ],
+  "requiredParts": [
+    "baseShape",
+    "borderZone",
+    "patternZone"
+  ],
+  "requiredHooks": [
+    "floor_attach"
+  ],
+  "requiredMaterialSlots": [
+    "fabricMain",
+    "fabricAccent"
+  ],
+  "deformationProfile": "semiSoft",
+  "animationPotential": [],
+  "blueprintSources": {
+    "front": "room_objects_51_images/13_rug_front_view.svg",
+    "top": "room_objects_51_images/13_rug_top_view.svg",
+    "side": "room_objects_51_images/13_rug_side_view.svg"
+  },
+  "projectionRules": {
+    "top": "Primary source for oval footprint and border proportions.",
+    "front": "Controls near-flat visible edge.",
+    "side": "Controls 0.03m shallow textile thickness."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: низкий овальный ковёр с приподнятым округлым бортиком и тонким центральным полем. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

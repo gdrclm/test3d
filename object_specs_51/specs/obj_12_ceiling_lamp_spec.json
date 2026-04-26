@@ -1,0 +1,62 @@
+{
+  "id": "obj_12_ceiling_lamp",
+  "number": 12,
+  "displayNameRu": "Потолочная лампа",
+  "displayNameEn": "Ceiling Lamp",
+  "category": "lighting",
+  "family": "ceilingLighting",
+  "template": "templateCeilingLamp",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.44,
+    "height": 0.55,
+    "depth": 0.44
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 380,
+    "maxTris": 700
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": true
+  },
+  "allowedPrimitives": [
+    "sphere",
+    "halfSphere",
+    "cylinder",
+    "softCylinder"
+  ],
+  "requiredParts": [
+    "ceilingCap",
+    "hanger",
+    "lampBody",
+    "lightEmitter"
+  ],
+  "requiredHooks": [
+    "ceiling_mount",
+    "light_emitter"
+  ],
+  "requiredMaterialSlots": [
+    "metalAccent",
+    "glass",
+    "plasticMain"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [
+    "gentle_sway_optional"
+  ],
+  "blueprintSources": {
+    "front": "room_objects_51_images/12_ceiling_lamp_front_view.svg",
+    "top": "room_objects_51_images/12_ceiling_lamp_top_view.svg",
+    "side": "room_objects_51_images/12_ceiling_lamp_side_view.svg"
+  },
+  "projectionRules": {
+    "front": "Controls cord length, cap, shade curve and bulb position.",
+    "side": "Must match the same hanging silhouette and shade flare.",
+    "top": "Controls circular footprint of cap and shade."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: потолочная чашка, вертикальный подвес, изогнутый плафон и отдельный светящийся элемент. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

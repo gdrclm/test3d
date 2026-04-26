@@ -1,0 +1,7 @@
+{
+  "id": "obj_12_ceiling_lamp",
+  "sourceSpec": "object_specs_51/specs/obj_12_ceiling_lamp_spec.json",
+  "projectionPriority": ["front", "side", "top"],
+  "modelingNotes": "Ceiling lamp rebuilt as a lathed shade with cord, cap and visible bulb. Front and side define the drop height; top defines the circular footprint.",
+  "parts": ["ceiling_cap", "vertical_cord", "shade_neck", "curved_blue_shade", "warm_light_emitter"]
+}

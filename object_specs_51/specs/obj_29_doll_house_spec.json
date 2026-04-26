@@ -1,0 +1,62 @@
+{
+  "id": "obj_29_doll_house",
+  "number": 29,
+  "displayNameRu": "Кукольный домик",
+  "displayNameEn": "Doll House",
+  "category": "toy",
+  "family": "toyStructure",
+  "template": "templateToyHouse",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.26,
+    "height": 0.3,
+    "depth": 0.2
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 900,
+    "maxTris": 1500
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": false
+  },
+  "allowedPrimitives": [
+    "roundedBox",
+    "panelRect",
+    "cone"
+  ],
+  "requiredParts": [
+    "mainBody",
+    "roof",
+    "doorZone",
+    "windowZoneLeft",
+    "windowZoneRight"
+  ],
+  "requiredHooks": [
+    "floor_attach",
+    "roof_top_center"
+  ],
+  "requiredMaterialSlots": [
+    "plasticMain",
+    "woodAccent",
+    "paintedFrame"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [
+    "front_door_optional"
+  ],
+  "blueprintSources": {
+    "front": "room_objects_51_images/29_doll_house_front_view.svg",
+    "top": "room_objects_51_images/29_doll_house_top_view.svg",
+    "side": "room_objects_51_images/29_doll_house_side_view.svg"
+  },
+  "projectionRules": {
+    "front": "Controls yellow body, triangular pink roof and white door.",
+    "top": "Controls roof overhang, body footprint, roof seam and chimney.",
+    "side": "Controls prism depth and roof/body overlap."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: маленький кукольный домик с жёлтым корпусом, розовой крышей и белой дверью. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

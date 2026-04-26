@@ -1,0 +1,59 @@
+{
+  "id": "obj_01_bed",
+  "number": 1,
+  "displayNameRu": "Кровать",
+  "displayNameEn": "Bed",
+  "category": "furniture",
+  "family": "sleepingFurniture",
+  "template": "templateBed",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 1.35,
+    "height": 0.55,
+    "depth": 2.05
+  },
+  "detailLevel": "medium",
+  "polyBudget": {
+    "targetTris": 1300,
+    "maxTris": 2200
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": false
+  },
+  "allowedPrimitives": [
+    "roundedBox",
+    "panelRect",
+    "softBox",
+    "cylinder"
+  ],
+  "requiredParts": [
+    "headboard",
+    "footboard",
+    "sideRailLeft",
+    "sideRailRight",
+    "basePlatform",
+    "mattressZone",
+    "blanketZone",
+    "pillowLeft",
+    "pillowRight",
+    "supportFootSet"
+  ],
+  "requiredHooks": [
+    "blanket_anchor",
+    "pillow_slot_left",
+    "pillow_slot_right",
+    "plush_slot"
+  ],
+  "requiredMaterialSlots": [
+    "woodMain",
+    "woodAccent",
+    "fabricMain",
+    "fabricAccent"
+  ],
+  "deformationProfile": "mixed",
+  "animationPotential": [],
+  "notes": "Чертежи bed_front_view.svg, bed_top_view.svg и bed_side_view.svg задают правильную ориентацию: короткий торец 0.95 м, длина 2.00 м. Изголовье выше и расположено на заднем торце, изножье ниже. По бокам низкие рейки, а не сплошные высокие плоскости. В боковом виде читаются три опоры: задняя, центральная и передняя. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

@@ -1,0 +1,55 @@
+{
+  "id": "obj_32_table_toy_cube_or_item",
+  "number": 32,
+  "displayNameRu": "Игрушечный кубик/предмет на столике",
+  "displayNameEn": "Toy Cube or Item on Table",
+  "category": "toy",
+  "family": "smallTableProp",
+  "template": "templateSmallProp",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.1,
+    "height": 0.1,
+    "depth": 0.1
+  },
+  "detailLevel": "low",
+  "polyBudget": {
+    "targetTris": 60,
+    "maxTris": 140
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": true
+  },
+  "allowedPrimitives": [
+    "roundedBox",
+    "sphere",
+    "cone"
+  ],
+  "requiredParts": [
+    "mainMass",
+    "accentZone"
+  ],
+  "requiredHooks": [
+    "table_attach_center"
+  ],
+  "requiredMaterialSlots": [
+    "plasticMain",
+    "fabricAccent"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [],
+  "blueprintSources": {
+    "front": "room_objects_51_images/32_table_toy_cube_or_item_front_view.svg",
+    "top": "room_objects_51_images/32_table_toy_cube_or_item_top_view.svg",
+    "side": "room_objects_51_images/32_table_toy_cube_or_item_side_view.svg"
+  },
+  "projectionRules": {
+    "top": "Controls 0.09m square footprint and central cream circle.",
+    "front": "Controls rounded cube height and badge placement.",
+    "side": "Controls equal depth cube silhouette."
+  },
+  "notes": "Переписано под корректные SVG-чертежи: голубой округлый кубик с жёлтым круглым знаком. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene."
+}

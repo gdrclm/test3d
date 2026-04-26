@@ -1,0 +1,7 @@
+{
+  "id": "obj_20_shelf_decor_house_pyramid",
+  "sourceSpec": "object_specs_51/specs/obj_20_shelf_decor_house_pyramid_spec.json",
+  "projectionPriority": ["front", "top", "side"],
+  "modelingNotes": "Small decor rebuilt as a house-like prism: rounded base from top view, triangular roof from front/side, and small front door/window accents.",
+  "parts": ["small_house_body", "triangular_prism_roof", "tiny_front_door", "tiny_front_window"]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "obj_21_desk",
+  "sourceSpec": "object_specs_51/specs/obj_21_desk_spec.json",
+  "projectionPriority": ["top", "front", "side"],
+  "modelingNotes": "Desk rebuilt from corrected SVGs: top controls 1.60m x 0.60m footprint; side view requires full-depth side supports, not thin front-only legs.",
+  "parts": ["rounded_desktop", "front_apron_strip", "full_depth_side_support"]
+}

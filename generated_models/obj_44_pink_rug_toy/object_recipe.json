@@ -1,0 +1,7 @@
+{
+  "id": "obj_44_pink_rug_toy",
+  "sourceSpec": "object_specs_51/specs/obj_44_pink_rug_toy_spec.json",
+  "projectionPriority": ["top", "front", "side"],
+  "modelingNotes": "Small round rug toy rebuilt from SVG diameter and palette with a pink body and lavender accent.",
+  "parts": ["round_pink_rug_toy_body", "lavender_front_accent"]
+}

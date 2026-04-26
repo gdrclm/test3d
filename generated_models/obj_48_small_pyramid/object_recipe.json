@@ -1,0 +1,7 @@
+{
+  "id": "obj_48_small_pyramid",
+  "sourceSpec": "object_specs_51/specs/obj_48_small_pyramid_spec.json",
+  "projectionPriority": ["front", "top", "side"],
+  "modelingNotes": "Small four-sided pyramid rebuilt from corrected SVG dimensions, with blue, pink, and cream face palette.",
+  "parts": ["small_four_sided_pyramid"]
+}

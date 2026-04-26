@@ -1,0 +1,56 @@
+{
+  "id": "obj_47_purple_rug_cube",
+  "number": 47,
+  "displayNameRu": "Фиолетовый кубик на ковре",
+  "displayNameEn": "Purple Cube on Rug",
+  "category": "toy",
+  "family": "blockToy",
+  "template": "templateBlock",
+  "styleProfile": "cartoon_soft_lowpoly",
+  "units": "meters",
+  "dimensions": {
+    "width": 0.09,
+    "height": 0.08,
+    "depth": 0.09
+  },
+  "detailLevel": "low",
+  "polyBudget": {
+    "targetTris": 40,
+    "maxTris": 100
+  },
+  "symmetry": {
+    "x": true,
+    "y": false,
+    "z": true
+  },
+  "allowedPrimitives": [
+    "roundedBox"
+  ],
+  "requiredParts": [
+    "mainBlock"
+  ],
+  "requiredHooks": [
+    "floor_attach"
+  ],
+  "requiredMaterialSlots": [
+    "plasticMain"
+  ],
+  "deformationProfile": "rigid",
+  "animationPotential": [],
+  "notes": "Пара зелёному кубику. Purple rug cube dimensions are restored to SVG labels and palette with white top accent. Scale normalized to the room-wide metric pass: dimensions are coherent meters for a 6.0 x 4.5 x 2.8 m children room scene.",
+  "blueprintSources": {
+    "front": "room_objects_51_images/47_purple_rug_cube_front_view.svg",
+    "top": "room_objects_51_images/47_purple_rug_cube_top_view.svg",
+    "side": "room_objects_51_images/47_purple_rug_cube_side_view.svg",
+    "sheet": "room_objects_51_images/47_purple_rug_cube_orthographic_3view_sheet.svg"
+  },
+  "projectionRules": {
+    "primary": "top",
+    "secondary": [
+      "front",
+      "side"
+    ],
+    "scaleSource": "svg_dimension_labels",
+    "colorSource": "svg_fill_palette"
+  }
+}

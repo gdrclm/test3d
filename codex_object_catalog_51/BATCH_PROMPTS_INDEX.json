@@ -1,0 +1,359 @@
+[
+  {
+    "number": 1,
+    "id": "obj_01_bed",
+    "nameRu": "Кровать",
+    "template": "templateBed",
+    "prompt_file": "batch_prompts/01_obj_01_bed_prompt.md"
+  },
+  {
+    "number": 2,
+    "id": "obj_02_pink_blanket",
+    "nameRu": "Розовое одеяло",
+    "template": "templateSoftSurface",
+    "prompt_file": "batch_prompts/02_obj_02_pink_blanket_prompt.md"
+  },
+  {
+    "number": 3,
+    "id": "obj_03_white_pillow",
+    "nameRu": "Белая подушка",
+    "template": "templatePillow",
+    "prompt_file": "batch_prompts/03_obj_03_white_pillow_prompt.md"
+  },
+  {
+    "number": 4,
+    "id": "obj_04_yellow_pillow",
+    "nameRu": "Жёлтая подушка",
+    "template": "templatePillow",
+    "prompt_file": "batch_prompts/04_obj_04_yellow_pillow_prompt.md"
+  },
+  {
+    "number": 6,
+    "id": "obj_06_nightstand",
+    "nameRu": "Прикроватная тумбочка",
+    "template": "templateCabinetSmall",
+    "prompt_file": "batch_prompts/06_obj_06_nightstand_prompt.md"
+  },
+  {
+    "number": 14,
+    "id": "obj_14_wardrobe",
+    "nameRu": "Шкаф",
+    "template": "templateWardrobe",
+    "prompt_file": "batch_prompts/14_obj_14_wardrobe_prompt.md"
+  },
+  {
+    "number": 7,
+    "id": "obj_07_bedside_lamp",
+    "nameRu": "Прикроватная лампа",
+    "template": "templateLamp",
+    "prompt_file": "batch_prompts/07_obj_07_bedside_lamp_prompt.md"
+  },
+  {
+    "number": 26,
+    "id": "obj_26_desk_lamp",
+    "nameRu": "Настольный светильник",
+    "template": "templateLamp",
+    "prompt_file": "batch_prompts/26_obj_26_desk_lamp_prompt.md"
+  },
+  {
+    "number": 8,
+    "id": "obj_08_window",
+    "nameRu": "Окно",
+    "template": "templateWindowFlat",
+    "prompt_file": "batch_prompts/08_obj_08_window_prompt.md"
+  },
+  {
+    "number": 9,
+    "id": "obj_09_left_curtain",
+    "nameRu": "Левая штора",
+    "template": "templateCurtain",
+    "prompt_file": "batch_prompts/09_obj_09_left_curtain_prompt.md"
+  },
+  {
+    "number": 10,
+    "id": "obj_10_right_curtain",
+    "nameRu": "Правая штора",
+    "template": "templateCurtain",
+    "prompt_file": "batch_prompts/10_obj_10_right_curtain_prompt.md"
+  },
+  {
+    "number": 12,
+    "id": "obj_12_ceiling_lamp",
+    "nameRu": "Потолочная лампа",
+    "template": "templateCeilingLamp",
+    "prompt_file": "batch_prompts/12_obj_12_ceiling_lamp_prompt.md"
+  },
+  {
+    "number": 13,
+    "id": "obj_13_rug",
+    "nameRu": "Ковёр",
+    "template": "templateRugOval",
+    "prompt_file": "batch_prompts/13_obj_13_rug_prompt.md"
+  },
+  {
+    "number": 15,
+    "id": "obj_15_bookshelf",
+    "nameRu": "Книжный шкаф",
+    "template": "templateBookshelf",
+    "prompt_file": "batch_prompts/15_obj_15_bookshelf_prompt.md"
+  },
+  {
+    "number": 16,
+    "id": "obj_16_books_set",
+    "nameRu": "Книги на полках",
+    "template": "templateBookCluster",
+    "prompt_file": "batch_prompts/16_obj_16_books_set_prompt.md"
+  },
+  {
+    "number": 17,
+    "id": "obj_17_shelf_plush",
+    "nameRu": "Плюшевая игрушка на полке",
+    "template": "templateSmallPlush",
+    "prompt_file": "batch_prompts/17_obj_17_shelf_plush_prompt.md"
+  },
+  {
+    "number": 18,
+    "id": "obj_18_shelf_vase_bottle",
+    "nameRu": "Ваза/бутылка на полке",
+    "template": "templateLatheProp",
+    "prompt_file": "batch_prompts/18_obj_18_shelf_vase_bottle_prompt.md"
+  },
+  {
+    "number": 19,
+    "id": "obj_19_shelf_box",
+    "nameRu": "Коробка на полке",
+    "template": "templateBoxProp",
+    "prompt_file": "batch_prompts/19_obj_19_shelf_box_prompt.md"
+  },
+  {
+    "number": 20,
+    "id": "obj_20_shelf_decor_house_pyramid",
+    "nameRu": "Декоративный домик/пирамидка на полке",
+    "template": "templateSmallDecor",
+    "prompt_file": "batch_prompts/20_obj_20_shelf_decor_house_pyramid_prompt.md"
+  },
+  {
+    "number": 21,
+    "id": "obj_21_desk",
+    "nameRu": "Письменный стол",
+    "template": "templateDesk",
+    "prompt_file": "batch_prompts/21_obj_21_desk_prompt.md"
+  },
+  {
+    "number": 22,
+    "id": "obj_22_monitor",
+    "nameRu": "Монитор/экран на столе",
+    "template": "templateMonitor",
+    "prompt_file": "batch_prompts/22_obj_22_monitor_prompt.md"
+  },
+  {
+    "number": 23,
+    "id": "obj_23_keyboard",
+    "nameRu": "Клавиатура",
+    "template": "templateKeyboard",
+    "prompt_file": "batch_prompts/23_obj_23_keyboard_prompt.md"
+  },
+  {
+    "number": 27,
+    "id": "obj_27_office_chair",
+    "nameRu": "Стул на колёсиках",
+    "template": "templateOfficeChair",
+    "prompt_file": "batch_prompts/27_obj_27_office_chair_prompt.md"
+  },
+  {
+    "number": 28,
+    "id": "obj_28_toy_box",
+    "nameRu": "Ящик для игрушек",
+    "template": "templateToyBox",
+    "prompt_file": "batch_prompts/28_obj_28_toy_box_prompt.md"
+  },
+  {
+    "number": 29,
+    "id": "obj_29_doll_house",
+    "nameRu": "Кукольный домик",
+    "template": "templateToyHouse",
+    "prompt_file": "batch_prompts/29_obj_29_doll_house_prompt.md"
+  },
+  {
+    "number": 30,
+    "id": "obj_30_round_play_table",
+    "nameRu": "Круглый игровой столик",
+    "template": "templateRoundTable",
+    "prompt_file": "batch_prompts/30_obj_30_round_play_table_prompt.md"
+  },
+  {
+    "number": 31,
+    "id": "obj_31_toy_teapot_or_cup",
+    "nameRu": "Игрушечный чайник/чашка",
+    "template": "templateTeaProp",
+    "prompt_file": "batch_prompts/31_obj_31_toy_teapot_or_cup_prompt.md"
+  },
+  {
+    "number": 32,
+    "id": "obj_32_table_toy_cube_or_item",
+    "nameRu": "Игрушечный кубик/предмет на столике",
+    "template": "templateSmallProp",
+    "prompt_file": "batch_prompts/32_obj_32_table_toy_cube_or_item_prompt.md"
+  },
+  {
+    "number": 33,
+    "id": "obj_33_small_table_toy",
+    "nameRu": "Маленькая игрушка на столике",
+    "template": "templateSmallProp",
+    "prompt_file": "batch_prompts/33_obj_33_small_table_toy_prompt.md"
+  },
+  {
+    "number": 34,
+    "id": "obj_34_left_pouf",
+    "nameRu": "Левый пуфик",
+    "template": "templatePouf",
+    "prompt_file": "batch_prompts/34_obj_34_left_pouf_prompt.md"
+  },
+  {
+    "number": 35,
+    "id": "obj_35_right_pouf",
+    "nameRu": "Правый пуфик",
+    "template": "templatePouf",
+    "prompt_file": "batch_prompts/35_obj_35_right_pouf_prompt.md"
+  },
+  {
+    "number": 36,
+    "id": "obj_36_bean_bag",
+    "nameRu": "Кресло-мешок",
+    "template": "templateBeanBag",
+    "prompt_file": "batch_prompts/36_obj_36_bean_bag_prompt.md"
+  },
+  {
+    "number": 39,
+    "id": "obj_39_star_mobile",
+    "nameRu": "Мобиль со звёздами",
+    "template": "templateMobile",
+    "prompt_file": "batch_prompts/39_obj_39_star_mobile_prompt.md"
+  },
+  {
+    "number": 40,
+    "id": "obj_40_wall_clock",
+    "nameRu": "Настенные часы",
+    "template": "templateWallClock",
+    "prompt_file": "batch_prompts/40_obj_40_wall_clock_prompt.md"
+  },
+  {
+    "number": 41,
+    "id": "obj_41_poster_01",
+    "nameRu": "Первый постер",
+    "template": "templatePoster",
+    "prompt_file": "batch_prompts/41_obj_41_poster_01_prompt.md"
+  },
+  {
+    "number": 42,
+    "id": "obj_42_poster_02",
+    "nameRu": "Второй постер",
+    "template": "templatePoster",
+    "prompt_file": "batch_prompts/42_obj_42_poster_02_prompt.md"
+  },
+  {
+    "number": 43,
+    "id": "obj_43_blue_rug_toy",
+    "nameRu": "Синяя игрушка на ковре",
+    "template": "templateSmallProp",
+    "prompt_file": "batch_prompts/43_obj_43_blue_rug_toy_prompt.md"
+  },
+  {
+    "number": 44,
+    "id": "obj_44_pink_rug_toy",
+    "nameRu": "Розовая игрушка на ковре",
+    "template": "templateSmallProp",
+    "prompt_file": "batch_prompts/44_obj_44_pink_rug_toy_prompt.md"
+  },
+  {
+    "number": 45,
+    "id": "obj_45_yellow_rug_toy",
+    "nameRu": "Жёлтая игрушка на ковре",
+    "template": "templateSmallProp",
+    "prompt_file": "batch_prompts/45_obj_45_yellow_rug_toy_prompt.md"
+  },
+  {
+    "number": 46,
+    "id": "obj_46_green_rug_cube",
+    "nameRu": "Зелёный кубик на ковре",
+    "template": "templateBlock",
+    "prompt_file": "batch_prompts/46_obj_46_green_rug_cube_prompt.md"
+  },
+  {
+    "number": 47,
+    "id": "obj_47_purple_rug_cube",
+    "nameRu": "Фиолетовый кубик на ковре",
+    "template": "templateBlock",
+    "prompt_file": "batch_prompts/47_obj_47_purple_rug_cube_prompt.md"
+  },
+  {
+    "number": 48,
+    "id": "obj_48_small_pyramid",
+    "nameRu": "Маленькая пирамидка на ковре",
+    "template": "templatePyramidToy",
+    "prompt_file": "batch_prompts/48_obj_48_small_pyramid_prompt.md"
+  },
+  {
+    "number": 50,
+    "id": "obj_50_plant_in_pot",
+    "nameRu": "Растение в горшке",
+    "template": "templatePottedPlant",
+    "prompt_file": "batch_prompts/50_obj_50_plant_in_pot_prompt.md"
+  },
+  {
+    "number": 51,
+    "id": "obj_51_laundry_basket",
+    "nameRu": "Корзина для белья",
+    "template": "templateLaundryBasket",
+    "prompt_file": "batch_prompts/51_obj_51_laundry_basket_prompt.md"
+  },
+  {
+    "number": 5,
+    "id": "obj_05_bed_toy",
+    "nameRu": "Игрушка на кровати",
+    "template": "templateSmallPlush",
+    "prompt_file": "batch_prompts/05_obj_05_bed_toy_prompt.md"
+  },
+  {
+    "number": 11,
+    "id": "obj_11_door",
+    "nameRu": "Дверь",
+    "template": "templateDoorFlat",
+    "prompt_file": "batch_prompts/11_obj_11_door_prompt.md"
+  },
+  {
+    "number": 24,
+    "id": "obj_24_tablet_or_book",
+    "nameRu": "Планшет/книга на столе",
+    "template": "templateFlatPortable",
+    "prompt_file": "batch_prompts/24_obj_24_tablet_or_book_prompt.md"
+  },
+  {
+    "number": 25,
+    "id": "obj_25_notebook_or_sheet",
+    "nameRu": "Блокнот/листок на столе",
+    "template": "templatePaperProp",
+    "prompt_file": "batch_prompts/25_obj_25_notebook_or_sheet_prompt.md"
+  },
+  {
+    "number": 37,
+    "id": "obj_37_easel",
+    "nameRu": "Мольберт",
+    "template": "templateEasel",
+    "prompt_file": "batch_prompts/37_obj_37_easel_prompt.md"
+  },
+  {
+    "number": 38,
+    "id": "obj_38_canvas",
+    "nameRu": "Холст на мольберте",
+    "template": "templateCanvas",
+    "prompt_file": "batch_prompts/38_obj_38_canvas_prompt.md"
+  },
+  {
+    "number": 49,
+    "id": "obj_49_slippers",
+    "nameRu": "Домашние тапочки",
+    "template": "templateSlippersPair",
+    "prompt_file": "batch_prompts/49_obj_49_slippers_prompt.md"
+  }
+]
