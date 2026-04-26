@@ -1506,7 +1506,7 @@ function updateFirstPersonController(delta) {
   }
 
   if (fpsState.mobileLook.lengthSq() > 0) {
-    const lookSpeed = 2.7;
+    const lookSpeed = 0.9;
     fpsState.yaw -= fpsState.mobileLook.x * lookSpeed * delta;
     fpsState.pitch -= fpsState.mobileLook.y * lookSpeed * delta;
     fpsState.pitch = THREE.MathUtils.clamp(fpsState.pitch, -Math.PI / 2 + 0.05, Math.PI / 2 - 0.05);
